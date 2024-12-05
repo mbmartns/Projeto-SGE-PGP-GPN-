@@ -10,11 +10,11 @@ O projeto tem como objetivo melhorar a gestão da comunicação entre o setor de
 
 # Autores
 
-Eric Bezerra Londres Barreto
-Lucas Lucena Xavier de Morais
-Luis Felipe Guedes Souto Moreira
-Maria Beatriz Martins Pontes Gonçalo
-Pablo Henrique Ferreira da Silva
-Pedro Henrique Souza Balbino
-Sara Simone Emilay de Araujo Pereira
+Eric Bezerra Londres Barreto | 
+Lucas Lucena Xavier de Morais | 
+Luis Felipe Guedes Souto Moreira | 
+Maria Beatriz Martins Pontes Gonçalo | 
+Pablo Henrique Ferreira da Silva | 
+Pedro Henrique Souza Balbino | 
+Sara Simone Emilay de Araujo Pereira | 
 Vinicius Nobre da Silva Prazeres
