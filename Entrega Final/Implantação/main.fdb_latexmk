@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1743876295.05964 "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" "main.pdf" "main" 1743876297.13051 2
-  "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" 1743876292.39478 59444 3ffd319f3b08de80c11df08ef4c64350 ""
+["pdflatex"] 1743876362.94565 "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" "main.pdf" "main" 1743876365.0066 2
+  "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" 1743876362.27361 59444 3ffd319f3b08de80c11df08ef4c64350 ""
   "/nix/store/03zygx0fmz4w0rjmhwzxhn9c672s2inz-texlive-combined-full-2024-final/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1 5467273 0cee73c1747378d1847fab7d17198658 ""
   "/nix/store/03zygx0fmz4w0rjmhwzxhn9c672s2inz-texlive-combined-full-2024-final/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1 3353374 c17c5c6897c3be17d688b288ffacff1d ""
   "/nix/store/03zygx0fmz4w0rjmhwzxhn9c672s2inz-texlive-combined-full-2024-final/share/texmf-var/web2c/texmf.cnf" 1 44167 43604b594cb675f25c8810e4593f0ac6 ""
@@ -230,10 +230,10 @@
   "images/AS-IS.jpg" 1743875510.97764 2845677 f95eb109fdf6d9c958edc6ccafd4cbfc ""
   "images/TO-BE.jpg" 1743875515.39884 4110757 b1504e4160128b71af96d867a398c103 ""
   "images/UFPE.jpg" 1743874042.9783 87640 45cedac9f9b5a18f8d30afb9b5d551c5 ""
-  "main.aux" 1743876296.85185 7844 efd841f101f16c0e28584ea2d748e01b "pdflatex"
-  "main.out" 1743876296.85385 8910 59201f5c85dab4fde9d588b79a75cc7d "pdflatex"
-  "main.tex" 1743876292.39478 59444 3ffd319f3b08de80c11df08ef4c64350 ""
-  "main.toc" 1743876296.85385 3985 43f39056b2f845e162b45bbcdb02a70f "pdflatex"
+  "main.aux" 1743876364.72463 7844 efd841f101f16c0e28584ea2d748e01b "pdflatex"
+  "main.out" 1743876364.72563 8910 59201f5c85dab4fde9d588b79a75cc7d "pdflatex"
+  "main.tex" 1743876362.27361 59444 3ffd319f3b08de80c11df08ef4c64350 ""
+  "main.toc" 1743876364.72563 3985 43f39056b2f845e162b45bbcdb02a70f "pdflatex"
   (generated)
   "main.aux"
   "main.log"
