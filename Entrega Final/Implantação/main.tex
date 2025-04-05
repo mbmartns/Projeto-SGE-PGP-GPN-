@@ -79,7 +79,7 @@
     \centering
     \vspace*{0.5cm}
     % Uncomment the line below when you have the actual logo file
-    {\includegraphics[width=4cm]{UFPE.jpg}\par}
+    {\includegraphics[width=4cm]{images/UFPE.jpg}\par}
     \vspace{1cm}
     {\scshape\LARGE Instituto Federal de Pernambuco \par}
     \vspace{1.5cm}
@@ -289,33 +289,8 @@ O fluxo de trabalho atual do setor de Segurança do Trabalho no IFPE segue uma a
 
 \begin{figure}[h]
 \centering
-\begin{tikzpicture}[
-    node distance=1.2cm,
-    box/.style={rectangle, rounded corners, draw, fill=blue!10, text width=3.5cm, minimum height=0.8cm, text centered, font=\sffamily\small},
-    arrow/.style={thick, ->, >=stealth}
-]
-
-% Nós com tamanho reduzido
-\node[box] (inicio) {Solicitação via SEI};
-\node[box, below=of inicio] (doc) {Documentação inicial (frequentemente incompleta)};
-\node[box, below=of doc] (contato) {Contato informal para complementação};
-\node[box, below=of contato] (visita) {Visita técnica ao local};
-\node[box, below=of visita] (analise) {Análise técnica baseada em normas};
-\node[box, below=of analise] (relatorio) {Elaboração de relatório em Word};
-\node[box, below=of relatorio] (sei) {Inclusão no SEI};
-\node[box, below=of sei] (arquivamento) {Arquivamento do processo};
-
-% Conexões
-\draw[arrow] (inicio) -- (doc);
-\draw[arrow] (doc) -- (contato);
-\draw[arrow] (contato) -- (visita);
-\draw[arrow] (visita) -- (analise);
-\draw[arrow] (analise) -- (relatorio);
-\draw[arrow] (relatorio) -- (sei);
-\draw[arrow] (sei) -- (arquivamento);
-
-\end{tikzpicture}
-\caption{Processo Atual (As-Is) Genérico de Solicitação de Segurança do Trabalho}
+\includegraphics[width=0.9\textwidth]{images/AS-IS.jpg}
+\caption{Processo Atual (As-Is) de Solicitação de Segurança do Trabalho}
 \end{figure}
 
 Este processo As-Is apresenta diversas ineficiências e pontos de gargalo, conforme identificado nas reuniões com o cliente:
@@ -509,36 +484,8 @@ O estado desejado prevê uma transformação significativa nos processos de segu
 
 \begin{figure}[H]
 \centering
-\begin{tikzpicture}[
-    node distance=1.5cm,
-    box/.style={rectangle, rounded corners, draw, fill=green!10, text width=3.5cm, minimum height=1cm, text centered, font=\sffamily},
-    aibox/.style={rectangle, rounded corners, draw, fill=blue!20, text width=3.5cm, minimum height=1cm, text centered, font=\sffamily},
-    arrow/.style={thick, ->, >=stealth}
-]
-
-% Nós
-\node[box] (inicio) {Usuário acessa o chatbot};
-\node[aibox, below=of inicio] (ia1) {IA identifica necessidade e guia o preenchimento};
-\node[box, below=of ia1] (form) {Preenchimento assistido do formulário com validação em tempo real};
-\node[aibox, below=of form] (ia2) {IA verifica completude e consistência dos dados};
-\node[box, below=of ia2] (submit) {Submissão automatizada para SEI};
-\node[aibox, below=of submit] (ia3) {IA notifica equipe técnica e sugere priorização};
-\node[box, below=of ia3] (analise) {Análise técnica baseada em normas};
-\node[aibox, below=of analise] (ia4) {IA auxilia na geração do relatório com templates};
-\node[box, below=of ia4] (resposta) {Resposta ao solicitante e arquivamento com índices para futura referência};
-
-% Conexões
-\draw[arrow] (inicio) -- (ia1);
-\draw[arrow] (ia1) -- (form);
-\draw[arrow] (form) -- (ia2);
-\draw[arrow] (ia2) -- (submit);
-\draw[arrow] (submit) -- (ia3);
-\draw[arrow] (ia3) -- (analise);
-\draw[arrow] (analise) -- (ia4);
-\draw[arrow] (ia4) -- (resposta);
-
-\end{tikzpicture}
-\caption{Processo Futuro (To-Be) Genérico de Solicitação de Segurança do Trabalho}
+\includegraphics[width=0.9\textwidth]{images/TO-BE.jpg}
+\caption{Processo Futuro (To-Be) de Solicitação de Segurança do Trabalho}
 \end{figure}
 
 Este processo To-Be apresenta melhorias significativas em relação ao processo atual:
