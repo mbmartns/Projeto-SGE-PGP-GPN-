@@ -35,18 +35,18 @@
 \contentsline {subsection}{\numberline {6.1}Visão geral da proposta de solução}{26}{subsection.65}%
 \contentsline {subsection}{\numberline {6.2}Estratégia de Implantação}{27}{subsection.71}%
 \contentsline {subsubsection}{\numberline {6.2.1}Análise SWOT}{27}{subsubsection.72}%
-\contentsline {subsubsection}{\numberline {6.2.2}Estratégia selecionada}{29}{subsubsection.75}%
-\contentsline {subsubsection}{\numberline {6.2.3}Infraestrutura necessária}{29}{subsubsection.81}%
-\contentsline {subsubsection}{\numberline {6.2.4}Metodologia de trabalho}{30}{subsubsection.83}%
-\contentsline {subsection}{\numberline {6.3}Dimensionamento e Perfil da Equipe para a Implantação da Melhoria}{32}{subsection.90}%
-\contentsline {subsection}{\numberline {6.4}Custos Associados à Implantação da Melhoria}{33}{subsection.92}%
-\contentsline {subsection}{\numberline {6.5}Cronograma Macro}{34}{subsection.94}%
-\contentsline {subsection}{\numberline {6.6}Plano de medições e análise}{37}{subsection.97}%
-\contentsline {subsubsection}{\numberline {6.6.1}Indicador: Tempo médio de preenchimento de formulários}{37}{subsubsection.98}%
-\contentsline {subsubsection}{\numberline {6.6.2}Indicador: Taxa de preenchimento correto na primeira tentativa}{37}{subsubsection.99}%
-\contentsline {subsubsection}{\numberline {6.6.3}Indicador: Consultas básicas direcionadas à equipe técnica}{37}{subsubsection.100}%
-\contentsline {subsubsection}{\numberline {6.6.4}Indicador: Dúvidas atendidas sem intervenção humana}{38}{subsubsection.101}%
-\contentsline {subsubsection}{\numberline {6.6.5}Indicador: Satisfação do usuário}{38}{subsubsection.102}%
-\contentsline {subsubsection}{\numberline {6.6.6}Indicador: Tempo de resposta para solicitações}{38}{subsubsection.103}%
-\contentsline {subsubsection}{\numberline {6.6.7}Indicador: Volume de documentação digital vs. papel}{39}{subsubsection.104}%
-\contentsline {section}{\numberline {7}Conclusões e Considerações Finais}{40}{section.105}%
+\contentsline {subsubsection}{\numberline {6.2.2}Estratégia selecionada}{27}{subsubsection.77}%
+\contentsline {subsubsection}{\numberline {6.2.3}Infraestrutura necessária}{29}{subsubsection.83}%
+\contentsline {subsubsection}{\numberline {6.2.4}Metodologia de trabalho}{30}{subsubsection.85}%
+\contentsline {subsection}{\numberline {6.3}Dimensionamento e Perfil da Equipe para a Implantação da Melhoria}{32}{subsection.92}%
+\contentsline {subsection}{\numberline {6.4}Custos Associados à Implantação da Melhoria}{33}{subsection.94}%
+\contentsline {subsection}{\numberline {6.5}Cronograma Macro}{34}{subsection.96}%
+\contentsline {subsection}{\numberline {6.6}Plano de medições e análise}{37}{subsection.99}%
+\contentsline {subsubsection}{\numberline {6.6.1}Indicador: Tempo médio de preenchimento de formulários}{37}{subsubsection.100}%
+\contentsline {subsubsection}{\numberline {6.6.2}Indicador: Taxa de preenchimento correto na primeira tentativa}{37}{subsubsection.101}%
+\contentsline {subsubsection}{\numberline {6.6.3}Indicador: Consultas básicas direcionadas à equipe técnica}{37}{subsubsection.102}%
+\contentsline {subsubsection}{\numberline {6.6.4}Indicador: Dúvidas atendidas sem intervenção humana}{38}{subsubsection.103}%
+\contentsline {subsubsection}{\numberline {6.6.5}Indicador: Satisfação do usuário}{38}{subsubsection.104}%
+\contentsline {subsubsection}{\numberline {6.6.6}Indicador: Tempo de resposta para solicitações}{38}{subsubsection.105}%
+\contentsline {subsubsection}{\numberline {6.6.7}Indicador: Volume de documentação digital vs. papel}{39}{subsubsection.106}%
+\contentsline {section}{\numberline {7}Conclusões e Considerações Finais}{40}{section.107}%
