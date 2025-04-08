@@ -3,7 +3,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
 \usepackage[table,dvipsnames]{xcolor}
-\usepackage{hyperref}
+\usepackage[hypertexnames=false,bookmarksnumbered=true]{hyperref}
 \usepackage{enumitem}
 \usepackage{titlesec}
 \usepackage{geometry}
@@ -26,13 +26,29 @@
 \usetikzlibrary{shapes,arrows,positioning,fit,backgrounds}
 \usepackage{tabularx} % For dynamic table widths
 
-% Page layout
-\geometry{a4paper, margin=2.5cm, headheight=15pt}
+% Page layout optimization
+\geometry{a4paper, margin=2.3cm, headheight=15pt, heightrounded}
 \setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt}
+\setlength{\parskip}{8pt}
 
-% Improve table formatting
+% Improved table formatting
 \renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{4pt}
+
+% Better spacing in lists
+\setlist{itemsep=3pt, parsep=0pt, listparindent=\parindent, leftmargin=*}
+
+% Better caption formatting
+\captionsetup{font=small, labelfont=bf, skip=8pt, width=0.9\textwidth}
+
+% Float placement optimization
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.8}
+\renewcommand{\textfraction}{0.1}
+\renewcommand{\floatpagefraction}{0.7}
+\setcounter{topnumber}{3}
+\setcounter{bottomnumber}{2}
+\setcounter{totalnumber}{5}
 
 % Header and footer setup
 \pagestyle{fancy}
@@ -108,9 +124,10 @@
 \thispagestyle{empty}
 \section*{Histórico de Revisões}
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
 \renewcommand{\arraystretch}{1.3}
+\resizebox{\textwidth}{!}{
 \begin{tabular}{|c|c|p{8cm}|c|}
 \hline
 \rowcolor{gray!15}\textbf{Revisão} & \textbf{Data} & \textbf{Descrição} & \textbf{Autor} \\
@@ -122,6 +139,7 @@
 3 & 05/04/2025 & Versão final para apresentação & Equipe do Projeto \\
 \hline
 \end{tabular}
+}
 \end{table}
 
 \clearpage
@@ -153,7 +171,7 @@ Os objetivos específicos do projeto incluem:
 \subsection{Equipe do projeto}
 A equipe responsável pela elaboração deste plano de implantação e pela condução do projeto é composta por:
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
 \begin{tabular}{|p{5cm}|p{8cm}|}
 \hline
@@ -165,6 +183,7 @@ Eric Bezerra Londres Barreto & Arquiteto de Soluções / Especialista em IA \\
 \hline
 Lucas Lucena Xavier de Morais & Desenvolvedor / Integração de Sistemas \\
 \hline
+Sara Simone Emilay de Araujo Pereira & Analista de Requisitos / Gestão da Mudança \\
 \hline
 Luis Felipe Guedes Souto Moreira & Desenvolvedor / Engenheiro de Dados \\
 \hline
@@ -197,10 +216,11 @@ O setor de Segurança do Trabalho, foco deste projeto, é um dos componentes do 
 \subsection{Principais stakeholders}
 Os principais stakeholders envolvidos no escopo do projeto são:
 
-\begin{table}[h]
+\begin{table}[ht]
 \centering
-\begin{tcolorbox}[enhanced, colback=white, colframe=gray!40, arc=4mm, boxrule=1pt]
-\begin{tabular}{p{4cm}p{10cm}}
+\begin{tcolorbox}[enhanced, colback=white, colframe=gray!40, arc=4mm, boxrule=1pt, width=0.95\textwidth]
+\begin{tabular}{|p{3.5cm}|p{9.5cm}|}
+\hline
 \textbf{Stakeholder} & \textbf{Papel no Projeto} \\
 \hline
 \textbf{Equipe técnica de Segurança do Trabalho do SIASS} & Responsável pela avaliação de ambientes laboratoriais, emissão de laudos técnicos, gestão de EPIs e análise de riscos ocupacionais. São os usuários primários da plataforma em seu papel administrativo. \\
@@ -214,6 +234,7 @@ Os principais stakeholders envolvidos no escopo do projeto são:
 \textbf{Núcleo de Tecnologia da Informação (NTI)} & Área responsável pela infraestrutura tecnológica do IFPE e pelo suporte técnico à solução a ser implementada. \\
 \hline
 \textbf{Alta administração do IFPE} & Reitoria e pró-reitorias que definem diretrizes e políticas institucionais, além de aprovar recursos para projetos estratégicos. \\
+\hline
 \end{tabular}
 \end{tcolorbox}
 \caption{Mapeamento de Stakeholders do Projeto}
@@ -284,19 +305,27 @@ Cada um desses macroprocessos é composto por diversos subprocessos e atividades
 
 \subsubsection{Processos - As Is (Modelagem dos processos atualmente implementados)}
 
-O fluxo de trabalho atual do setor de Segurança do Trabalho no IFPE segue uma abordagem predominantemente manual e fragmentada, conforme detalhado nas atas de reunião. A seguir, apresentamos a modelagem do processo genérico que representa a maior parte das solicitações:
+O processo atual consiste no atendimento manual às solicitações de segurança do trabalho, iniciando quando um servidor público envia uma demanda ao servidor do SIASS por meio de e-mail ou via SEI. O servidor do SIASS verifica manualmente as informações recebidas e, caso identifique dados incompletos, solicita o reenvio das informações faltantes ao servidor solicitante, prolongando o tempo de resposta.
 
-\clearpage
+Uma vez validada a solicitação, o servidor do SIASS abre o processo manualmente e entra em contato com o servidor público para coletar detalhes adicionais, utilizando canais não padronizados (e-mail, ligação telefônica ou mensagens via aplicativos). Após essa etapa, o servidor do SIASS agenda a visita técnica, comunica o solicitante e aguarda confirmação.
+
+Na data agendada, a visita técnica é realizada, e, posteriormente, o servidor do SIASS elabora manualmente o relatório, o registra no SEI e notifica o servidor público sobre a conclusão do processo. Por fim, o documento é arquivado, encerrando o fluxo.
+
 \begin{landscape}
-\thispagestyle{fancy}
-\begin{figure}[H]
-\makebox[\linewidth][c]{
-\includegraphics[width=0.98\paperwidth, height=0.9\paperheight, keepaspectratio]{images/AS-IS.jpg}
-}
-\caption{Processo Atual (As-Is) de Solicitação de Segurança do Trabalho}
+\begin{figure}[p]
+\centering
+\includegraphics[width=0.85\paperwidth, height=0.8\paperheight, keepaspectratio]{images/AS-IS.jpg}
+\caption{Processo Atual (As-Is) de Solicitação de Segurança do Trabalho. \\ Diagrama original: \url{https://lucid.app/lucidchart/40645f0c-1a65-4212-8d42-41b5854b891d/edit?invitationId=inv_0024c9b9-9c9b-470f-a54f-679cf3aab54d&page=QSIJBMCcx_hD}}
 \end{figure}
 \end{landscape}
-\clearpage
+
+\begin{landscape}
+\begin{figure}[p]
+\centering
+\includegraphics[width=0.85\paperwidth, height=0.8\paperheight, keepaspectratio]{images/TO-BE.jpg}
+\caption{Processo Futuro (To-Be) de Solicitação de Segurança do Trabalho. \\ Diagrama original: \url{https://lucid.app/lucidchart/c518578e-1e72-429d-8a8d-1e0801ad0fb8/edit?invitationId=inv_db2d0895-3d2c-4aa4-a92c-9416611973d1&page=QSIJBMCcx_hD}}
+\end{figure}
+\end{landscape}
 
 Este processo As-Is apresenta diversas ineficiências e pontos de gargalo, conforme identificado nas reuniões com o cliente:
 
@@ -351,29 +380,29 @@ A análise do processo atual revelou diversos desafios e oportunidades de melhor
 \textbf{Problemas de Comunicação:}
 
 \begin{itemize}
-    \item \textbf{Canais Informais:} Atualmente, as entrevistas realizadas pelos profissionais são anotadas manualmente em papel, sendo posteriormente transcritas para documentos no formato Word. Esse procedimento é relatado como ineficiente e suscetível a erros.
+    \item \textbf{Canais Informais:} Atualmente, as entrevistas são realizadas de maneira informal, com anotações feitas manualmente e posteriormente transformadas em documentos de texto.
 
-    \item \textbf{Falta de Padronização:} As solicitações são frequentemente encaminhadas de maneira informal e sem informações completas, o que leva a interrupções no fluxo de trabalho para buscar detalhes adicionais com gestores ou responsáveis.
+    \item \textbf{Falta de Padronização:} Os pedidos muitas vezes chegam de forma desestruturada, exigindo contato direto com os solicitantes para entender a demanda, o que gera inconsistência nos processos.
 
-    \item \textbf{Retrabalho Constante:} Após a coleta inicial de informações, há um intervalo significativo até que os documentos sejam consolidados, muitas vezes levando até uma semana para serem finalizados, devido à falta de automação e integração dos dados coletados.
+    \item \textbf{Retrabalho Constante:} Informações importantes muitas vezes são registradas tardiamente, o que gera retrabalho para a equipe na consolidação dos dados.
 
-    \item \textbf{Dificuldade de Acesso à Documentação:} Os documentos gerados estão dispersos em diferentes sistemas e formatos, dificultando o acesso centralizado e a recuperação de informações.
+    \item \textbf{Dificuldade de acesso à documentação:} A documentação está dispersa em diferentes sistemas e formatos, dificultando sua localização e utilização.
 
-    \item \textbf{Subnotificação de Acidentes:} Foi identificado que muitos servidores não registram pequenos acidentes devido ao receio ou ao desconhecimento dos procedimentos adequados para formalizar esses registros.
+    \item \textbf{Subnotificação de acidentes:} Pequenos acidentes frequentemente não são registrados por parte dos servidores, seja por receio ou por falta de conhecimento sobre o procedimento adequado.
 \end{itemize}
 
 \textbf{Problemas Organizacionais:}
 
 \begin{itemize}
-    \item \textbf{Equipe Reduzida:} A equipe atual responsável pelos processos de segurança do trabalho é pequena e enfrenta dificuldades para atender a alta demanda, resultando em atrasos e sobrecarga dos profissionais.
+    \item \textbf{Equipe Reduzida:} A equipe responsável é pequena e sobrecarregada, o que compromete o tratamento inicial das demandas.
 
-    \item \textbf{Falta de Recursos Dedicados:} A ausência de um canal formal de atendimento e um fluxo estruturado para registro e processamento das solicitações prejudica a eficiência operacional.
+    \item \textbf{Falta de Recursos Dedicados:} Não há um canal formal e estruturado para o atendimento, o que prejudica a formalização adequada das solicitações.
 
-    \item \textbf{Complexidade das Demandas:} Alguns casos específicos, como os que envolvem riscos avançados ou conhecimentos técnicos especializados, requerem suporte de outros departamentos, o que aumenta a complexidade da gestão.
+    \item \textbf{Complexidade das Demandas:} Algumas demandas são altamente técnicas e exigem a consulta a especialistas externos, o que dificulta sua resolução.
 
-    \item \textbf{Sistema SEI Inadequado:} O sistema atualmente utilizado, o SEI, não foi concebido para a gestão contínua de documentos de segurança do trabalho, pois é voltado para processos que têm início e fim definidos.
+    \item \textbf{Sistema SEI inadequado:} O sistema utilizado não é ideal para documentos que exigem atualizações contínuas, como é o caso da documentação de segurança.
 
-    \item \textbf{Falta de Digitalização e Padronização Visual:} A predominância de documentos textuais, sem recursos visuais ou gráficos, dificulta a compreensão das informações por parte dos usuários.
+    \item \textbf{Falta de digitalização e padronização visual:} A documentação é predominantemente textual, sem o uso de elementos visuais que poderiam facilitar sua compreensão.
 \end{itemize}
 
 \subsubsection{Justificativa}
@@ -383,109 +412,352 @@ A partir da análise realizada, identificou-se que o problema central no process
 \clearpage
 \subsection{Estado Desejado}
 
-\subsubsection{Análise de Gaps}
+O estado desejado para os processos de segurança do trabalho no IFPE é caracterizado por um fluxo de trabalho otimizado, digital e centrado no usuário, conforme ilustrado no diagrama TO-BE apresentado anteriormente. Esta nova abordagem resolve os problemas identificados no processo atual e incorpora as seguintes características principais:
 
-\subsubsubsection{Arquitetura de Negócios}
-A análise dos gaps na arquitetura de negócios identifica as melhorias necessárias nos processos e na organização para alcançar o estado desejado:
+\begin{itemize}
+    \item \textbf{Interface conversacional intuitiva:} Um chatbot com IA que guia os usuários por todo o processo, desde a solicitação inicial até o acompanhamento do status.
+    
+    \item \textbf{Preenchimento assistido de formulários:} Sistema inteligente que auxilia no preenchimento correto e completo dos formulários, reduzindo erros e omissões.
+    
+    \item \textbf{Base de conhecimento centralizada:} Repositório unificado de normas, procedimentos e documentos técnicos, facilmente acessível e pesquisável.
+    
+    \item \textbf{Integração com o SEI:} Conexão direta com o sistema oficial, mantendo a conformidade legal e eliminando a duplicação de dados.
+    
+    \item \textbf{Automação de processos:} Fluxos de trabalho automatizados para tarefas repetitivas, liberando a equipe técnica para atividades de maior valor.
+    
+    \item \textbf{Análise preditiva:} Capacidade de identificar padrões e tendências, permitindo uma abordagem mais proativa à segurança do trabalho.
+\end{itemize}
 
-\begin{table}[h]
+Este estado futuro não apenas elimina as ineficiências do processo atual, mas também oferece novas capacidades que elevam a qualidade e o alcance dos serviços de segurança do trabalho no IFPE.
+
+\subsection{Análise de Gaps}
+
+\subsubsection{Arquitetura de Negócios}
+
+\begin{table}[htbp]
 \centering
-\begin{tcolorbox}[enhanced, colback=white, colframe=gray!40, arc=3mm, boxrule=0.5pt]
-\scriptsize
-\begin{tabular}{|p{2.5cm}|p{4cm}|p{5cm}|}
+\resizebox{0.9\textwidth}{!}{
+\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|p{4cm}|}
 \hline
-\rowcolor{gray!20}
-\textbf{Área} & \textbf{Gap Identificado} & \textbf{Melhorias Propostas} \\
+\rowcolor{blue!10}\textbf{Elemento} & \textbf{Estado Atual} & \textbf{Estado Desejado} & \textbf{Gap Identificado} \\
 \hline
-Padronização de processos & Falta de fluxos e documentos padronizados para solicitações & Definição de fluxos claros para cada tipo de solicitação, com templates pré-definidos e validações \\
+\textbf{Processos de Negócio} & Processos manuais, fragmentados e com documentação limitada. Múltiplos canais de comunicação não integrados. & Processos automatizados, integrados e com documentação digital completa. Canal unificado de comunicação. & Ausência de automação e padronização nos processos principais de segurança do trabalho. \\
 \hline
-Gestão de conhecimento & Conhecimento técnico concentrado em poucos profissionais & Criação de base de conhecimento estruturada e acessível com informações sobre normas, procedimentos e casos anteriores \\
+\textbf{Organização} & Estrutura hierárquica tradicional com comunicação vertical. Equipe técnica reduzida com alta demanda de trabalho. & Estrutura mais horizontal com comunicação direta através do sistema. Equipe técnica focada em atividades de alto valor. & Necessidade de reorganização da distribuição de tarefas e responsabilidades para otimizar recursos humanos limitados. \\
 \hline
-Comunicação & Comunicação fragmentada em múltiplos canais & Implementação de canal unificado para todas as comunicações relacionadas à segurança do trabalho \\
-\hline
-Proatividade & Abordagem reativa para questões de segurança & Implementação de alertas e notificações proativas sobre prazos, renovações e potenciais riscos \\
-\hline
-Autonomia do usuário & Alta dependência da equipe técnica para informações básicas & Criação de mecanismos de autoatendimento para dúvidas frequentes e solicitações simples \\
-\hline
-Métricas e indicadores & Ausência de indicadores claros para acompanhamento & Definição e implementação de KPIs para monitorar eficiência, qualidade e satisfação \\
+\textbf{Serviços de Negócio} & Serviços prestados de forma reativa e com documentação manual. Tempo de resposta longo e variável. & Serviços prestados de forma proativa, com documentação automatizada e tempo de resposta previsível. & Falta de capacidade para oferecer serviços proativos e preventivos devido às limitações de recursos e sistemas. \\
 \hline
 \end{tabular}
-\end{tcolorbox}
-\caption{Gaps na Arquitetura de Negócios}
+}
+\caption{Gap Analysis - Principais Domínios de Arquitetura de Negócios}
 \end{table}
 
-\subsubsubsection{Arquitetura de Sistemas de Informação}
-A análise dos gaps na arquitetura de sistemas de informação identifica as melhorias necessárias nos sistemas e aplicações:
-
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
-\begin{tcolorbox}[enhanced, colback=white, colframe=gray!40, arc=3mm, boxrule=0.5pt]
+\begin{tcolorbox}[enhanced, colback=white, colframe=gray!40, arc=3mm, boxrule=0.5pt, width=0.9\linewidth]
 \scriptsize
-\begin{tabular}{|p{2.5cm}|p{4cm}|p{5cm}|}
+\resizebox{0.85\textwidth}{!}{
+\begin{tabular}{|p{2.2cm}|p{2.4cm}|p{2cm}|p{2.3cm}|p{1.4cm}|p{1.4cm}|p{2cm}|p{1.8cm}|}
 \hline
 \rowcolor{gray!20}
-\textbf{Área} & \textbf{Gap Identificado} & \textbf{Melhorias Propostas} \\
+\textbf{Detalhamento da Mudança} & \textbf{What?} & \textbf{Why?} & \textbf{Who?} & \textbf{Where?} & \textbf{When?} & \textbf{How?} & \textbf{How Much?} \\
 \hline
-Sistema específico & Ausência de sistema específico para segurança do trabalho & Implementação de chatbot com IA integrado a uma plataforma de gestão de segurança do trabalho \\
+1. Identificação do ESTADO ATUAL dos procedimentos de trabalho & Processo atual de Segurança do Trabalho no SIASS envolve abertura manual de processos, coleta de informações informalmente, documentação final manual. & A equipe é reduzida, a documentação é descentralizada, aumentando o tempo de resposta. & Equipe de Segurança do Trabalho do SIASS, servidores envolvidos no processo. & Ambiente de trabalho do SIASS, incluindo laboratórios e setores administrativos. & Durante a abertura de processos e a realização de inspeções. & Abertura de processos no SEI, entrevistas com especialistas, visita técnica e elaboração de documentos manuais. & Alto — devido ao tempo gasto em coletas de informações e retrabalho. \\
 \hline
-Integração & Sistemas isolados sem integração (SEI, planilhas, documentos) & Desenvolvimento de conectores para integração com SEI e outros sistemas existentes \\
+2. Identificação do NOVO ESTADO, considerando os procedimentos de trabalho já melhorados & Automação inteligente do processo de Segurança do Trabalho, com preenchimento guiado e integração com normas técnicas. & Redução do retrabalho, maior padronização das informações e melhoria na eficiência do processo. & Equipe de Segurança do Trabalho, desenvolvedores do sistema e usuários finais. & Sistema digital implementado no SIASS para gestão de segurança. & Durante a implementação do novo sistema digital. & Uso de tecnologia de preenchimento assistido e integração com normas técnicas. & Médio — custos iniciais de implementação, mas economia no longo prazo. \\
 \hline
-Automação de formulários & Preenchimento manual e propenso a erros & Implementação de formulários inteligentes com validação e preenchimento assistido \\
+3. Identificação das LACUNAS ou problemas/falhas do estado atual & Falta de padronização na coleta de informações, retrabalho na documentação e dependência de entrevistas presenciais. & As informações são coletadas de maneira informal, dificultando o processo e gerando inconsistências. & Profissionais do SIASS, equipe administrativa, técnicos de segurança do trabalho. & Atividades presenciais, como entrevistas e inspeções, e atividades administrativas. & No momento de coleta de informações e geração de documentos. & Documentação manual, falta de sistema de preenchimento assistido e alto tempo de resposta. & Alto — elevado custo em tempo de trabalho e inconsistências nos dados. \\
 \hline
-Busca de informações & Dificuldade em localizar documentos e informações & Implementação de mecanismo de busca avançado com processamento de linguagem natural \\
-\hline
-Gestão documental & Documentos dispersos em diversos formatos e locais & Criação de repositório centralizado com versionamento e controle de acesso \\
-\hline
-Interface com usuário & Interfaces pouco intuitivas e amigáveis & Design de interfaces conversacionais e visuais adaptadas aos diferentes perfis de usuários \\
+4. Propostas de MELHORIAS para fechar as lacunas do item 3 & Processo automático para preenchimento de formulários, integração com banco de normas técnicas e automação de laudos técnicos. & Facilitar o preenchimento de formulários, garantir precisão nas informações e reduzir o tempo de análise. & Gestores do SIASS, equipe técnica de TI e profissionais da Segurança do Trabalho. & Ambiente digital, com automatização do fluxo de trabalho e documentação técnica. & Após a implementação do novo sistema automatizado. & Processo automatizado para preenchimento e análise de segurança. & Baixo — otimização do tempo e aumento da produtividade reduzindo erros. \\
 \hline
 \end{tabular}
+}
 \end{tcolorbox}
-\caption{Gaps na Arquitetura de Sistemas de Informação}
+\caption{Análise de Gaps com foco em Processos de Negócio}
 \end{table}
 
-\subsubsubsection{Arquitetura de Tecnologia}
-A análise dos gaps na arquitetura de tecnologia identifica as melhorias necessárias na infraestrutura tecnológica:
+\subsubsection{Arquitetura de Sistemas de Informação}
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
-\begin{tcolorbox}[enhanced, colback=white, colframe=gray!40, arc=3mm, boxrule=0.5pt]
-\scriptsize
-\begin{tabular}{|p{2.5cm}|p{4cm}|p{5cm}|}
+\resizebox{0.9\textwidth}{!}{
+\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|p{4cm}|}
+\hline
+\rowcolor{blue!10}\textbf{Elemento} & \textbf{Estado Atual} & \textbf{Estado Desejado} & \textbf{Gap Identificado} \\
+\hline
+\textbf{Aplicações} & Sistema SEI para processos gerais. Sem sistema específico para gestão de segurança do trabalho. & Sistema integrado de gestão de segurança com interface conversacional e automação de formulários. & Ausência de aplicação específica para processos de segurança do trabalho e interface mais acessível aos usuários. \\
+\hline
+\textbf{Integração} & Sistemas isolados sem comunicação automatizada. Transferência manual de informações. & Sistemas integrados com fluxo automatizado de informações e validação de dados. & Falta de interfaces de integração entre sistemas e padrões de interoperabilidade. \\
+\hline
+\textbf{Usabilidade} & Interfaces complexas, focadas em especialistas. Uso de formulários em papel e digitais não padronizados. & Interface conversacional intuitiva, acessível a todos os níveis de usuários e adaptativa ao contexto. & Alta curva de aprendizado dos sistemas atuais e falta de assistência contextual ao usuário. \\
+\hline
+\end{tabular}
+}
+\caption{Gap Analysis - Principais Aspectos dos Sistemas de Informação}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\begin{tcolorbox}[enhanced, colback=white, colframe=gray!40, arc=3mm, boxrule=0.5pt, width=0.85\linewidth]
+\begin{tabular}{|p{2cm}|p{9.5cm}|}
 \hline
 \rowcolor{gray!20}
-\textbf{Área} & \textbf{Gap Identificado} & \textbf{Melhorias Propostas} \\
+\textbf{Etapa} & \textbf{Descrição} \\
 \hline
-Infraestrutura de nuvem & Dependência de infraestrutura local com limitações de escalabilidade & Migração para infraestrutura em nuvem com maior capacidade e disponibilidade \\
+1. Identificação de funcionalidades atuais & Sistema atual: a coleta de informações é feita de forma descentralizada, com uso de artefatos manuais e processos não padronizados. \\
 \hline
-Processamento de linguagem natural & Ausência de tecnologia para processamento de consultas em linguagem natural & Adoção de serviços de IA em nuvem (AWS Bedrock) para processamento de linguagem natural \\
+2. Funcionalidades do novo sistema & O novo sistema proposto visa automatizar o preenchimento assistido de formulários, evoluir para uma plataforma autônoma que interaja com o usuário, integrar normas técnicas e oferecer suporte à decisão na análise de viabilidade, além de centralizar todas as etapas dentro de um ambiente digital estruturado. \\
 \hline
-Acesso móvel & Limitações de acesso via dispositivos móveis & Implementação de interfaces responsivas e integração com WhatsApp para acesso ubíquo \\
+3. Lacunas do sistema atual & \begin{itemize}\setlength{\itemsep}{0pt}
+\item Falta de padronização e formalização inicial do processo
+\item Comunicação informal que gera retrabalho e perda de informações
+\item Equipe reduzida sem ferramentas adequadas para otimizar a gestão
+\item Documentação fragmentada e descentralizada
+\end{itemize} \\
 \hline
-Armazenamento vetorial & Ausência de tecnologia para busca semântica em documentos & Implementação de base de dados vetorial para pesquisa semântica em documentos técnicos \\
-\hline
-Segurança de dados & Controles de segurança insuficientes para dados sensíveis & Implementação de criptografia, controle de acesso baseado em papéis e auditoria \\
-\hline
-Análise de dados & Ausência de ferramentas para análise de dados e geração de insights & Implementação de componentes de business intelligence para análise de tendências e riscos \\
+4. Melhorias propostas & \begin{itemize}\setlength{\itemsep}{0pt}
+\item Implementação de um sistema integrado para formalizar a comunicação e as solicitações
+\item Digitalização dos processos e automação no preenchimento de formulários
+\item Criação de um módulo de suporte à decisão baseado em normas técnicas
+\end{itemize} \\
 \hline
 \end{tabular}
 \end{tcolorbox}
-\caption{Gaps na Arquitetura de Tecnologia}
+\caption{Análise de Gaps com foco em Sistemas de Informação}
+\end{table}
+
+\clearpage
+\subsubsection{Arquitetura de Dados}
+
+\begin{table}[htbp]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|p{4cm}|}
+\hline
+\rowcolor{blue!10}\textbf{Elemento} & \textbf{Estado Atual} & \textbf{Estado Desejado} & \textbf{Gap Identificado} \\
+\hline
+\textbf{Modelos de Dados} & Dados não estruturados em documentos de texto. Sem modelo centralizado. & Dados estruturados em banco de dados relacional e não-relacional. Base de conhecimento vetorial. & Ausência de estruturação adequada de dados e modelo semântico para gestão do conhecimento. \\
+\hline
+\textbf{Qualidade de Dados} & Inconsistência entre documentos, informações duplicadas e desatualizadas. & Dados consistentes, validados e com atualização automática. Trilha de auditoria de alterações. & Falta de mecanismos de validação, controle de qualidade e garantia de consistência. \\
+\hline
+\textbf{Acesso a Dados} & Acesso limitado a documentos físicos ou por e-mail. Difícil recuperação de informações históricas. & Acesso unificado via interface intuitiva. Busca semântica e filtros contextuais. & Ausência de mecanismos de indexação, busca avançada e disponibilização contextual de informações. \\
+\hline
+\end{tabular}
+}
+\caption{Gap Analysis - Principais Aspectos da Arquitetura de Dados}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\begin{tcolorbox}[enhanced, colback=white, colframe=gray!40, arc=3mm, boxrule=0.5pt, width=0.85\linewidth]
+\begin{tabular}{|p{2cm}|p{10cm}|}
+\hline
+\rowcolor{gray!20}
+\textbf{Etapa} & \textbf{Descrição} \\
+\hline
+1. Fontes de dados atuais & \begin{itemize}\setlength{\itemsep}{0pt}
+\item \textbf{Documentações técnicas de normas de segurança do trabalho:} Fonte de dados com alta qualidade e facilidade de acesso, disponível em formato digital e físico, sendo pública e regulamentada.
+\item \textbf{Documentação em papel das visitas técnicas:} Fonte de dados armazenada de forma manual, com disponibilidade limitada e qualidade potencialmente comprometida devido à dificuldade de atualização.
+\item \textbf{Dados de abertura de solicitação de processo:} Fonte de dados mista que pode ser encontrada no sistema SEI ou via email, impactando negativamente na qualidade e confiabilidade dos dados.
+\end{itemize} \\
+\hline
+2. Fontes de dados no novo cenário & \begin{itemize}\setlength{\itemsep}{0pt}
+\item \textbf{Documentações técnicas de normas de segurança do trabalho:} Mantém-se como fonte de alta qualidade e facilidade de acesso.
+\item \textbf{Documentação das visitas técnicas:} Será armazenada em sistema integrado com o SEI, permitindo maior agilidade no processo, capacidade de alteração das informações e maior disponibilidade de acesso.
+\item \textbf{Dados de abertura de solicitação de processo:} Será centralizada e estruturada no sistema integrado.
+\end{itemize} \\
+\hline
+3. Lacunas identificadas & Ausência de integração da documentação manual com o sistema SEI pelo qual será gerado o relatório do processo, além da utilização de recursos manuais na fonte de dados atual, trazendo problemas de disponibilidade por limitação de acesso em meios físicos e qualidade dos dados, além de inibir uma capacidade mais ágil de alteração dos dados. \\
+\hline
+4. Melhorias propostas & Substituição do método manual da fonte de dados da documentação das visitas técnicas por meios virtuais e integrados com o sistema atual utilizado para a geração de relatório, o sistema SEI. \\
+\hline
+\end{tabular}
+\end{tcolorbox}
+\caption{Análise de Gaps com foco em Dados}
+\end{table}
+\clearpage
+
+\clearpage
+\subsubsection{Arquitetura de Tecnologia}
+
+\begin{table}[htbp]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|p{4cm}|}
+\hline
+\rowcolor{blue!10}\textbf{Elemento} & \textbf{Estado Atual} & \textbf{Estado Desejado} & \textbf{Gap Identificado} \\
+\hline
+\textbf{Infraestrutura} & Infraestrutura local com sistemas em servidores institucionais. Acesso principalmente em estações de trabalho. & Infraestrutura híbrida (cloud + on-premises) com alta disponibilidade. Acesso multiplataforma (web, mobile). & Falta de infraestrutura flexível, escalável e acessível através de múltiplos dispositivos. \\
+\hline
+\textbf{Segurança} & Controle de acesso básico. Sem criptografia avançada ou protocolos robustos de segurança. & Segurança multicamadas com autenticação forte, criptografia, auditoria e conformidade com LGPD. & Deficiências nos mecanismos de proteção de dados sensíveis e controles de segurança avançados. \\
+\hline
+\textbf{Plataformas Tecnológicas} & Tecnologia tradicional sem recursos de IA ou automação avançada. Pouco uso de APIs. & Plataforma moderna com IA, processamento de linguagem natural, APIs RESTful e microserviços. & Ausência de tecnologias emergentes para automação inteligente e experiência conversacional. \\
+\hline
+\end{tabular}
+}
+\caption{Gap Analysis - Principais Aspectos da Arquitetura de Tecnologia}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\begin{tcolorbox}[enhanced, colback=white, colframe=gray!40, arc=3mm, boxrule=0.5pt, width=0.85\linewidth]
+\begin{tabular}{|p{2cm}|p{10cm}|}
+\hline
+\rowcolor{gray!20}
+\textbf{Etapa} & \textbf{Descrição} \\
+\hline
+1. Arquitetura tecnológica atual & Atualmente, o sistema utilizado é o SEI (Sistema Eletrônico de Informações), que gerencia processos administrativos de forma manual. Além disso, a coleta de informações ocorre via e-mail e telefone, com os relatórios sendo gerados em arquivos Word e armazenados no sistema. \\
+\hline
+2. Arquitetura tecnológica nova & O novo sistema contará com um módulo de automação inteligente para preenchimento de formulários e análise de segurança do trabalho. Haverá integração com o SEI para armazenamento centralizado, além de um banco de normas técnicas para padronização dos laudos. \\
+\hline
+3. Lacunas tecnológicas & O sistema atual não possui automação, exigindo intervenção manual em todas as etapas do processo. A coleta de dados é descentralizada e há risco de perda de informações devido ao uso de canais informais. Além disso, não há integração com normas técnicas, o que dificulta a padronização. \\
+\hline
+4. Melhorias tecnológicas & \begin{itemize}\setlength{\itemsep}{0pt}
+\item Implementação de um assistente virtual inteligente para auxiliar no preenchimento de formulários
+\item Integração com um banco de normas técnicas para automação de verificações de conformidade
+\item Desenvolvimento de um módulo de análise preditiva para reduzir retrabalho e otimizar a tomada de decisão
+\end{itemize} \\
+\hline
+\end{tabular}
+\end{tcolorbox}
+\caption{Análise de Gaps com foco em Tecnologia}
+\end{table}
+
+\subsubsection{Processos e Visualização de Sistemas}
+
+\begin{table}[htbp]
+\centering
+\begin{minipage}{0.8\textwidth}
+\centering
+\fbox{\begin{tabular}{c}
+\textbf{Sistema Atual} \\
+\\
+\begin{tabular}{c|c}
+Usuário & Sistema SEI \\
+$\downarrow$ & $\downarrow$ \\
+Insere dados manualmente & Armazena documentos \\
+$\downarrow$ & \\
+Recebe resultado & \\
+\end{tabular}
+\end{tabular}}
+\caption{Representação do sistema atual}
+\end{minipage}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\begin{minipage}{0.8\textwidth}
+\centering
+\fbox{\begin{tabular}{c}
+\textbf{Novo Sistema} \\
+\\
+\begin{tabular}{c}
+Usuário \\
+$\downarrow$ \\
+Interação e fornecimento de dados \\
+$\downarrow$ \\
+Assistente \\
+$\downarrow$ \\
+Verificação com Normas Técnicas \\
+$\downarrow$ \\
+SEI (Sistema Eletrônico de Informações) \\
+$\downarrow$ \\
+Armazena informações estruturadas \\
+$\downarrow$ \\
+Interface Web
+\end{tabular}
+\end{tabular}}
+\caption{Representação do novo sistema}
+\end{minipage}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\begin{minipage}{0.8\textwidth}
+\centering
+\fbox{\begin{tabular}{c}
+\textbf{Arquitetura Tecnológica Atual} \\
+\\
+\begin{tabular}{c}
+Usuário \\
+$\downarrow$ \\
+Email/Telefone $\rightarrow$ SEI \\
+$\downarrow$ \\
+Documentos Word \\
+$\downarrow$ \\
+Geração manual de relatórios
+\end{tabular}
+\end{tabular}}
+\caption{Arquitetura tecnológica atual}
+\end{minipage}
+\end{table}
+
+\begin{table}[htbp]
+\centering
+\begin{minipage}{0.8\textwidth}
+\centering
+\fbox{\begin{tabular}{c}
+\textbf{Arquitetura Tecnológica Nova} \\
+\\
+\begin{tabular}{c}
+Interface Web/Chatbot \\
+$\downarrow$ \\
+Módulo de Preenchimento Inteligente \\
+$\downarrow$ \\
+Banco de Normas Técnicas \\
+$\downarrow$ \\
+Geração automática de relatórios \\
+$\downarrow$ \\
+Banco de Dados Centralizado \\
+\end{tabular}
+\end{tabular}}
+\caption{Arquitetura tecnológica nova}
+\end{minipage}
 \end{table}
 
 \subsubsection{Processos - To Be (Modelagem dos processos melhorados)}
 
 O estado desejado prevê uma transformação significativa nos processos de segurança do trabalho, com a implementação do chatbot com IA como ponto central de interação. A seguir, apresentamos a modelagem do processo genérico no estado desejado:
 
-\begin{landscape}
-\thispagestyle{fancy}
-\begin{figure}[H]
-\makebox[\linewidth][c]{
-\includegraphics[width=0.98\paperwidth, height=0.9\paperheight, keepaspectratio]{images/TO-BE.jpg}
-}
-\caption{Processo Futuro (To-Be) de Solicitação de Segurança do Trabalho}
-\end{figure}
-\end{landscape}
-\clearpage
+\section{Conclusões e Considerações Finais}
+
+A implantação do chatbot com IA para processos de segurança do trabalho representa uma oportunidade significativa para transformar e modernizar os serviços prestados pelo setor de Segurança do Trabalho do SIASS/IFPE. Este plano de implantação foi elaborado com base em uma análise detalhada do contexto atual, identificação de desafios e oportunidades, e definição de uma estratégia gradual e iterativa para maximizar as chances de sucesso.
+
+Os principais benefícios esperados com a implementação desta solução incluem:
+
+\begin{itemize}
+    \item \textbf{Eficiência operacional:} Redução significativa no tempo de processamento de solicitações e no esforço administrativo da equipe técnica.
+    
+    \item \textbf{Padronização e qualidade:} Maior consistência nos processos e documentos, com redução de erros e retrabalho.
+    
+    \item \textbf{Acessibilidade:} Disponibilização de informações e serviços de forma mais acessível e intuitiva para todos os servidores.
+    
+    \item \textbf{Preservação do conhecimento:} Estruturação e centralização do conhecimento técnico em segurança do trabalho.
+    
+    \item \textbf{Inteligência organizacional:} Geração de dados e insights para tomada de decisão baseada em evidências.
+    
+    \item \textbf{Evolução tecnológica:} Posicionamento do IFPE como instituição inovadora na aplicação de tecnologias avançadas para melhoria de serviços.
+\end{itemize}
+
+Para garantir o sucesso desta iniciativa, algumas considerações importantes devem ser observadas:
+
+\begin{enumerate}
+    \item \textbf{Gestão da mudança:} É fundamental investir em comunicação, treinamento e envolvimento dos usuários desde as fases iniciais do projeto.
+    
+    \item \textbf{Flexibilidade:} O plano deve ser adaptável para acomodar aprendizados e necessidades emergentes ao longo da implementação.
+    
+    \item \textbf{Foco no valor:} As decisões devem sempre priorizar o valor entregue aos usuários e à instituição, não apenas aspectos técnicos.
+    
+    \item \textbf{Visão de longo prazo:} Embora implementado em fases, o projeto deve manter alinhamento com a visão estratégica de longo prazo.
+    
+    \item \textbf{Sustentabilidade:} A solução deve ser projetada para ser mantida e evoluída após a conclusão do projeto inicial.
+\end{enumerate}
+
+A estratégia de implementação em três níveis progressivos permite uma abordagem controlada e sustentável, minimizando riscos e maximizando o aprendizado. Iniciando com funcionalidades básicas de preenchimento assistido de formulários e base de conhecimento, evoluindo para automação inteligente e integração de sistemas, e finalmente alcançando recursos avançados de análise preditiva e suporte à decisão, o projeto oferece entregas de valor em cada etapa.
+
+O sucesso desta iniciativa não depende apenas de aspectos tecnológicos, mas principalmente do engajamento das pessoas e da capacidade de integrar a solução aos processos e à cultura da instituição. O comprometimento da alta administração, a participação ativa dos especialistas em segurança do trabalho e a adoção pelos usuários finais são fatores críticos para que os benefícios esperados sejam plenamente alcançados.
+
+Recomenda-se o início imediato da fase de preparação, seguindo o cronograma e a metodologia definidos neste plano, com acompanhamento regular dos indicadores estabelecidos para avaliar o progresso e o impacto da solução.
 
 Este processo To-Be apresenta melhorias significativas em relação ao processo atual:
 
@@ -519,38 +791,49 @@ Este processo To-Be apresenta melhorias significativas em relação ao processo 
     \end{itemize}
 \end{enumerate}
 
-\subsubsection{Resultados esperados}
-A implementação do chatbot com IA para processos de segurança do trabalho deverá entregar os seguintes resultados:
+\subsection{Resultados esperados}
 
-\textbf{Para o setor de Segurança do Trabalho:}
+\section{Resultados Esperados}
+
+A implementação do novo processo automatizado trará as seguintes melhorias e benefícios:
+
+\subsection{1. Processo Padronizado e Centralizado}
 \begin{itemize}
-    \item Redução de 56\% no tempo dedicado a atividades administrativas
-    \item Diminuição de 77\% nas consultas básicas direcionadas à equipe técnica
-    \item Aumento de 88\% na digitalização de documentos
-    \item Padronização de 100\% dos formulários e relatórios
-    \item Criação de base de conhecimento centralizada e estruturada
-    \item Dashboards analíticos para acompanhamento de indicadores
+    \item Todas as solicitações serão recebidas e gerenciadas em um sistema único, eliminando a dispersão de canais e garantindo maior organização.
+    \item Fluxo estruturado desde a abertura da demanda até a conclusão, com registro automatizado de cada etapa.
 \end{itemize}
 
-\textbf{Para os servidores e demais usuários:}
+\subsection{2. Redução de Retrabalho e Maior Precisão}
 \begin{itemize}
-    \item Redução de 67\% no tempo de preenchimento de formulários
-    \item Aumento de 100\% na taxa de preenchimento correto na primeira tentativa
-    \item Diminuição de 75\% no tempo de resposta para solicitações
-    \item Acesso 24/7 a informações e orientações sobre segurança do trabalho
-    \item Aumento de 38\% na satisfação com os serviços prestados
-    \item Interface conversacional intuitiva e amigável
+    \item Validação automática das informações no momento do envio, minimizando inconsistências e evitando solicitações de retificação.
+    \item Eliminação de erros manuais na checagem de documentos e dados.
 \end{itemize}
 
-\textbf{Para a instituição:}
+\subsection{3. Agendamento Ágil e Automatizado}
 \begin{itemize}
-    \item Maior conformidade com normas regulamentadoras
-    \item Redução de riscos de segurança através de comunicação mais eficiente
-    \item Melhor aproveitamento dos recursos humanos especializados
-    \item Dados estruturados para tomada de decisão baseada em evidências
-    \item Preservação do conhecimento institucional na área de segurança do trabalho
-    \item Base para futuras expansões para outras áreas como saúde ocupacional
+    \item Sistema de agendamento inteligente, que define a data da visita técnica com base na disponibilidade do técnico e do solicitante.
+    \item Confirmações automáticas por e-mail ou mensagem, reduzindo atrasos e falhas de comunicação.
 \end{itemize}
+
+\subsection{4. Relatórios Automatizados e Padronizados}
+\begin{itemize}
+    \item Geração instantânea de relatórios pós-visita, com dados estruturados e em conformidade com as normas.
+    \item Armazenamento direto no SEI, sem necessidade de digitação ou upload manual.
+\end{itemize}
+
+\subsection{5. Respostas Rápidas a Dúvidas Técnicas}
+\begin{itemize}
+    \item Assistente virtual integrado para tirar dúvidas sobre normas de segurança, fornecendo respostas imediatas e alinhadas à legislação.
+    \item Redução da dependência da disponibilidade de um técnico para consultas simples.
+\end{itemize}
+
+\subsection{6. Ganho de Tempo e Eficiência}
+\begin{itemize}
+    \item Redução de até 50\% no tempo total do processo, desde a solicitação até a finalização.
+    \item Menor sobrecarga para a equipe do SIASS, que poderá focar em demandas estratégicas.
+\end{itemize}
+
+Com a automação, o processo ganhará eficiência, transparência e qualidade, beneficiando tanto os solicitantes quanto a equipe responsável pela segurança no trabalho.
 
 \clearpage
 \section{Plano de Ação}
@@ -638,57 +921,60 @@ A solução proposta consiste em um chatbot impulsionado por Inteligência Artif
     \item Interoperabilidade: Integração com sistemas existentes
 \end{itemize}
 
-\clearpage
 \subsection{Estratégia de Implantação}
 
 \subsubsection{Análise SWOT}
 
-Para definir a estratégia mais adequada de implantação, realizamos uma análise SWOT (Forças, Fraquezas, Oportunidades e Ameaças) do projeto:
+Para definir a estratégia mais adequada de implantação, realizamos uma análise SWOT, apresentada a seguir.
 
-\begin{table}[h]
+\begin{figure}[htbp]
 \centering
-\begin{tcolorbox}[enhanced, colback=white, colframe=gray!40, arc=3mm, boxrule=0.5pt]
-\scriptsize
-\begin{tabular}{|p{7cm}|p{7cm}|}
+\begin{tcolorbox}[enhanced, colback=white, colframe=gray!40, arc=3mm, boxrule=0.5pt, width=0.85\textwidth]
+\begin{tabular}{|p{12cm}|}
 \hline
-\rowcolor{green!10}
-\textbf{Forças (Strengths)} & \textbf{Fraquezas (Weaknesses)} \\
+\rowcolor{green!10}\large \textbf{Forças (Strengths)} \\
 \hline
-$\bullet$ Área de segurança bem regulamentada, facilitando a estruturação do conhecimento\\
-$\bullet$ Especialista (César) engajado e conhecedor dos processos\\
-$\bullet$ Apoio da alta administração do IFPE\\
-$\bullet$ Processos relativamente estáveis e bem definidos\\
-$\bullet$ Tecnologias de IA maduras disponíveis no mercado\\
-$\bullet$ Equipe de projeto multidisciplinar
-& 
-$\bullet$ Recursos financeiros limitados da instituição pública\\
-$\bullet$ Equipe técnica reduzida no setor de Segurança do Trabalho\\
-$\bullet$ Resistência potencial à mudança de processos estabelecidos\\
-$\bullet$ Dependência de infraestrutura de TI do IFPE\\
-$\bullet$ Lacunas na documentação atual dos processos\\
-$\bullet$ Complexidade de integração com sistemas legados (SEI) \\
-\hline
-\rowcolor{blue!10}
-\textbf{Oportunidades (Opportunities)} & \textbf{Ameaças (Threats)} \\
-\hline
-$\bullet$ Crescente aceitação de interfaces conversacionais (chatbots)\\
-$\bullet$ Possibilidade de expansão futura para outros domínios (saúde)\\
-$\bullet$ Projeto piloto pode servir de modelo para outras instituições\\
-$\bullet$ Evolução rápida das tecnologias de IA\\
-$\bullet$ Potencial de publicações científicas sobre o projeto\\
-$\bullet$ Melhoria da imagem institucional por inovação tecnológica
-&
-$\bullet$ Mudanças na gestão do IFPE podem afetar prioridades\\
-$\bullet$ Restrições orçamentárias imprevistas\\
-$\bullet$ Problemas de segurança de dados e conformidade com LGPD\\
-$\bullet$ Dificuldades técnicas na integração com SEI\\
-$\bullet$ Resistência cultural à adoção de IA no setor público\\
-$\bullet$ Greves ou paralisações que afetem o cronograma\\
+\begin{itemize}\setlength{\itemsep}{1pt}
+\item A implementação do ERP pode aumentar a eficiência, reduzir erros e otimizar os processos de segurança do trabalho, impulsionando a modernização da instituição e justificando investimentos futuros.
+
+\item A viabilidade técnica do projeto é favorecida pelo escopo focado em segurança do trabalho, facilitado pela regulamentação clara.
+
+\item O apoio da alta gestão garante recursos, facilita a adoção do sistema e incentiva a equipe a aceitar as mudanças, aumentando as chances de sucesso na implementação do ERP.
+
+\item O IFPE utiliza o sistema SEI, que, apesar de alguns processos manuais e descentralizados, oferece recursos tecnológicos adequados.
+
+\item A equipe de implantação demonstra alto engajamento e disponibilidade, concentrando esforços na execução do projeto com excelência e adaptando-se bem às necessidades específicas.
+\end{itemize} \\
 \hline
 \end{tabular}
 \end{tcolorbox}
-\caption{Análise SWOT do Projeto}
-\end{table}
+\caption{Análise SWOT - Forças do Projeto}
+\end{figure}
+
+\begin{figure}[htbp]
+\centering
+\begin{tcolorbox}[enhanced, colback=white, colframe=gray!40, arc=3mm, boxrule=0.5pt, width=0.85\textwidth]
+\begin{tabular}{|p{12cm}|}
+\hline
+\rowcolor{red!10}\large \textbf{Fraquezas (Weaknesses)} \\
+\hline
+\begin{itemize}\setlength{\itemsep}{1pt}
+\item A instituição enfrenta dificuldades para lidar com mudanças, o que pode gerar resistência à adoção do novo sistema e exigir mais tempo para treinamentos e adaptação.
+
+\item A rigidez dos processos e a resistência dos servidores tornam a implementação mais complexa e demorada.
+
+\item Por estar fortemente inserido na rotina da equipe de segurança do SIASS, o processo pode encontrar resistência por parte dos usuários.
+
+\item A existência de vários sistemas temporários dificulta a integração, aumenta a complexidade operacional e pode gerar retrabalho durante a transição para o novo ERP.
+
+\item A migração de dados representa um gargalo, exigindo rigorosos controles e validação.
+\end{itemize} \\
+\hline
+\end{tabular}
+\end{tcolorbox}
+\caption{Análise SWOT - Fraquezas do Projeto}
+\end{figure}
+\clearpage
 
 \subsubsection{Estratégia selecionada}
 
@@ -811,10 +1097,10 @@ Para garantir uma implementação bem-sucedida, adotaremos a seguinte metodologi
 
 A implantação do chatbot com IA para processos de segurança do trabalho requer uma equipe multidisciplinar com diferentes competências. A seguir, detalhamos o dimensionamento e o perfil necessários:
 
-\begin{table}[H]
+\begin{table}[htbp]
 \centering
-\begin{adjustbox}{max width=\textwidth}
 \renewcommand{\arraystretch}{1.2}
+\resizebox{0.95\textwidth}{!}{
 \begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{6cm}|}
 \hline
 \rowcolor{gray!20}
@@ -841,86 +1127,81 @@ Especialista em Segurança do Trabalho & 1 & 30\% & Validação técnica, fornec
 Analista de Negócios & 1 & 50\% & Levantamento de requisitos, modelagem de processos, interface com usuários \\
 \hline
 \end{tabular}
-\end{adjustbox}
+}
 \caption{Dimensionamento e Perfil da Equipe}
 \end{table}
+\clearpage
 
 \subsection{Custos Associados à Implantação da Melhoria}
 
 A estimativa de custos para a implantação do chatbot com IA para processos de segurança do trabalho foi calculada considerando os recursos humanos, infraestrutura, licenças e serviços necessários:
 
-\begin{table}[h]
+\begin{table}[htbp]
 \centering
-\begin{tcolorbox}[enhanced, colback=white, colframe=gray!40, arc=3mm, boxrule=0.5pt]
-\scriptsize
+\resizebox{0.9\textwidth}{!}{
 \begin{tabular}{|p{2.8cm}|p{3.2cm}|r|r|}
 \hline
 \rowcolor{gray!20}
 \textbf{Categoria} & \textbf{Item} & \textbf{Valor Mensal (R\$)} & \textbf{Valor Total (R\$)} \\
 \hline
-\multirow{5}{*}{Recursos Humanos} & Equipe interna (dedicação parcial) & 12.000,00 & 144.000,00 \\
+\multirow{3}{*}{Recursos Humanos} & Equipe interna (dedicação parcial) & 0,00 & 0,00 \\
 \cline{2-4}
- & Consultoria especializada em IA & 15.000,00 & 45.000,00 (3 meses) \\
+ & Suporte técnico (3 meses) & 2.000,00 & 6.000,00 \\
 \cline{2-4}
- & Desenvolvimento terceirizado & 25.000,00 & 125.000,00 (5 meses) \\
-\cline{2-4}
- & Suporte técnico pós-implantação & 8.000,00 & 48.000,00 (6 meses) \\
-\cline{2-4}
- & \textbf{Subtotal RH} & & \textbf{362.000,00} \\
+ & \textbf{Subtotal RH} & & \textbf{6.000,00} \\
 \hline
-\multirow{4}{*}{\parbox{2.8cm}{Infraestrutura\\ e Serviços}} & Servidores em nuvem & 3.500,00 & 42.000,00 \\
+\multirow{3}{*}{Infraestrutura e Serviços} & Servidor virtual compartilhado & 300,00 & 900,00 \\
 \cline{2-4}
- & Serviços AWS (Bedrock, S3, RDS) & 5.500,00 & 66.000,00 \\
+ & API de IA (Claude/OpenAI) & 500,00 & 1.500,00 \\
 \cline{2-4}
- & API WhatsApp Business & 1.800,00 & 21.600,00 \\
-\cline{2-4}
- & \textbf{Subtotal Infraestrutura} & & \textbf{129.600,00} \\
+ & \textbf{Subtotal Infraestrutura} & & \textbf{2.400,00} \\
 \hline
-\multirow{3}{*}{\parbox{2.8cm}{Licenças e\\ Ferramentas}} & Ferramentas de desenvolvimento & - & 10.000,00 (único) \\
+\multirow{3}{*}{Licenças e Ferramentas} & API WhatsApp Business & 1.000,00 & 3.000,00 \\
 \cline{2-4}
- & Licenças de software & 1.500,00 & 18.000,00 \\
+ & Bibliotecas open-source & 0,00 & 0,00 \\
 \cline{2-4}
- & \textbf{Subtotal Licenças} & & \textbf{28.000,00} \\
+ & \textbf{Subtotal Licenças} & & \textbf{3.000,00} \\
 \hline
-\multirow{4}{*}{Outros Custos} & Treinamento de usuários & - & 18.000,00 (único) \\
+\multirow{4}{*}{Outros Custos} & Treinamento de usuários & - & 3.000,00 \\
 \cline{2-4}
- & Documentação e materiais & - & 8.000,00 (único) \\
+ & Documentação e materiais & - & 3.800,00 \\
 \cline{2-4}
- & Contingência (15\%) & - & 81.840,00 \\
+ & Contingência (10\%) & - & 1.800,00 \\
 \cline{2-4}
- & \textbf{Subtotal Outros} & & \textbf{107.840,00} \\
+ & \textbf{Subtotal Outros} & & \textbf{8.600,00} \\
 \hline
-\multicolumn{2}{|r|}{\textbf{TOTAL}} & & \textbf{627.440,00} \\
+\multicolumn{2}{|r|}{\textbf{TOTAL}} & & \textbf{20.000,00} \\
 \hline
 \end{tabular}
-\end{tcolorbox}
+}
 \caption{Custos Associados à Implantação}
 \end{table}
 
 \textbf{Observações sobre os custos:}
-
 \begin{itemize}
-    \item A estimativa foi otimizada para um horizonte de 10 meses, incluindo as mesmas fases de preparação, piloto, expansão e consolidação, porém com maior eficiência.
-    \item Utilizaremos recursos internos de forma mais intensiva, resultando em menor dependência de consultoria externa.
-    \item A abordagem em nuvem foi renegociada para obter descontos significativos de volume e compromisso anual.
-    \item A estratégia de desenvolvimento foi redesenhada para utilizar componentes reutilizáveis e frameworks open-source.
-    \item A redução de 31\% no orçamento total (de R\$ 908.500,00 para R\$ 627.440,00) foi obtida sem comprometer os objetivos centrais do projeto.
+    \item A estimativa foi otimizada para um orçamento reduzido de R\$ 20.000,00
+    \item A implementação será realizada utilizando principalmente recursos internos do IFPE, sem custo adicional
+    \item Adotaremos abordagem baseada em software livre e APIs de baixo custo
+    \item Utilizaremos infraestrutura já existente na instituição, minimizando novos investimentos em hardware
+    \item O desenvolvimento será conduzido por equipe interna com suporte técnico limitado
+    \item As integrações com sistemas existentes serão feitas de forma progressiva, reduzindo custos iniciais
+    \item O projeto será implementado seguindo metodologia ágil, priorizando funcionalidades de maior valor
 \end{itemize}
 
 \subsection{Cronograma Macro}
 
 O cronograma macro para a implantação do chatbot com IA para processos de segurança do trabalho está organizado em quatro fases principais, com duração total de 22 semanas:
 
-\begin{table}[h]
+\begin{landscape}
+\begin{table}[htbp]
 \centering
-\begin{tcolorbox}[enhanced, colback=white, colframe=gray!40, arc=3mm, boxrule=0.5pt]
-\scriptsize
-\begin{tabular}{|p{1.8cm}|p{1cm}|p{4.8cm}|p{4cm}|}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{|p{2cm}|p{1.2cm}|p{7cm}|p{6cm}|}
 \hline
 \rowcolor{gray!20}
 \textbf{Fase} & \textbf{Duração} & \textbf{Principais Atividades} & \textbf{Entregas} \\
 \hline
-\multirow{4}{*}{Preparação} & \multirow{4}{*}{4 semanas} & $\bullet$ Definição detalhada de requisitos & $\bullet$ Documento de requisitos aprovado \\
+\multirow{4}{*}{Preparação} & \multirow{4}{*}{4 sem.} & $\bullet$ Definição de requisitos & $\bullet$ Requisitos aprovados \\
 \cline{3-4}
  & & $\bullet$ Configuração da infraestrutura & $\bullet$ Ambientes configurados \\
 \cline{3-4}
@@ -928,7 +1209,7 @@ O cronograma macro para a implantação do chatbot com IA para processos de segu
 \cline{3-4}
  & & $\bullet$ Definição de métricas & $\bullet$ Framework de avaliação \\
 \hline
-\multirow{4}{*}{Piloto} & \multirow{4}{*}{6 semanas} & $\bullet$ Desenvolvimento do Nível 1 & $\bullet$ Chatbot básico funcional \\
+\multirow{4}{*}{Piloto} & \multirow{4}{*}{6 sem.} & $\bullet$ Desenvolvimento do Nível 1 & $\bullet$ Chatbot básico \\
 \cline{3-4}
  & & $\bullet$ Seleção e treinamento de usuários piloto & $\bullet$ Grupo piloto treinado \\
 \cline{3-4}
@@ -936,7 +1217,7 @@ O cronograma macro para a implantação do chatbot com IA para processos de segu
 \cline{3-4}
  & & $\bullet$ Ajustes baseados no feedback & $\bullet$ Versão refinada do Nível 1 \\
 \hline
-\multirow{4}{*}{Expansão} & \multirow{4}{*}{8 semanas} & $\bullet$ Desenvolvimento do Nível 2 & $\bullet$ Funcionalidades de automação \\
+\multirow{4}{*}{Expansão} & \multirow{4}{*}{8 sem.} & $\bullet$ Desenvolvimento do Nível 2 & $\bullet$ Funcionalidades de automação \\
 \cline{3-4}
  & & $\bullet$ Treinamento de multiplicadores & $\bullet$ Equipe de multiplicadores formada \\
 \cline{3-4}
@@ -944,7 +1225,7 @@ O cronograma macro para a implantação do chatbot com IA para processos de segu
 \cline{3-4}
  & & $\bullet$ Integração com sistemas existentes & $\bullet$ Conectores funcionais com SEI \\
 \hline
-\multirow{4}{*}{Consolidação} & \multirow{4}{*}{4 semanas} & $\bullet$ Desenvolvimento de recursos do Nível 3 & $\bullet$ Funcionalidades avançadas \\
+\multirow{4}{*}{Consolidação} & \multirow{4}{*}{4 sem.} & $\bullet$ Desenvolvimento de recursos do Nível 3 & $\bullet$ Funcionalidades avançadas \\
 \cline{3-4}
  & & $\bullet$ Implantação geral & $\bullet$ Solução disponível para toda instituição \\
 \cline{3-4}
@@ -953,13 +1234,14 @@ O cronograma macro para a implantação do chatbot com IA para processos de segu
  & & $\bullet$ Planejamento de melhorias contínuas & $\bullet$ Roadmap de evolução \\
 \hline
 \end{tabular}
-\end{tcolorbox}
 \caption{Cronograma Macro de Implantação}
 \end{table}
+\end{landscape}
 
-\begin{figure}[h]
+\begin{table}[htbp]
 \centering
-\begin{tikzpicture}[scale=0.7]
+\resizebox{\textwidth}{!}{
+\begin{tikzpicture}[scale=0.8]
 \draw[->] (0,0) -- (22,0) node[right] {\small Semanas};
 \foreach \x in {0,4,10,18,22}
     \draw (\x,0.1) -- (\x,-0.1) node[below] {\scriptsize \x};
@@ -969,8 +1251,9 @@ O cronograma macro para a implantação do chatbot com IA para processos de segu
 \filldraw[fill=orange!20] (10,0.5) rectangle (18,1.5) node[midway, font=\small] {Expansão};
 \filldraw[fill=red!20] (18,0.5) rectangle (22,1.5) node[midway, font=\small] {Consolidação};
 \end{tikzpicture}
+}
 \caption{Linha do Tempo do Projeto}
-\end{figure}
+\end{table}
 
 \clearpage
 \subsection{Plano de medições e análise}
@@ -1115,20 +1398,24 @@ Recomenda-se o início imediato da fase de preparação, seguindo o cronograma e
 
 \vspace{2cm}
 
-\centering
+\begin{center}
 \begin{tabular}{p{7cm}p{7cm}}
-\line(1,0){200} & \line(1,0){200} \\
-\centering Pedro Henrique Souza Balbino & \centering Marco Antônio Eugênio Araujo \\
-\centering Gerente de Projeto & \centering Cliente/Representante SIASS \\
+\hline
+Pedro Henrique Souza Balbino & Marco Antônio Eugênio Araujo \\
+Gerente de Projeto & Cliente/Representante SIASS \\
+\hline
 \\[1cm]
-\line(1,0){200} & \line(1,0){200} \\
-\centering Eric Bezerra Londres Barreto & \centering Mauro César de Oliveira \\
-\centering Arquiteto de Soluções & \centering Especialista em Segurança do Trabalho \\
+\hline
+Eric Bezerra Londres Barreto & Mauro César de Oliveira \\
+Arquiteto de Soluções & Especialista em Segurança do Trabalho \\
+\hline
 \\[1cm]
-\line(1,0){200} & \line(1,0){200} \\
-\centering Sara Simone Emilay de Araujo Pereira & \centering Luis Felipe Guedes Souto Moreira \\
-\centering Analista de Negócios & \centering Desenvolvedor \\
+\hline
+Sara Simone Emilay de Araujo Pereira & Luis Felipe Guedes Souto Moreira \\
+Analista de Negócios & Desenvolvedor \\
+\hline
 \end{tabular}
+\end{center}
 
 \vfill
 \begin{center}
