@@ -1,9 +1,9 @@
 # Fdb version 4
-["pdflatex"] 1743876362.94565 "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" "main.pdf" "main" 1743876365.0066 2
-  "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" 1743876362.27361 59444 3ffd319f3b08de80c11df08ef4c64350 ""
-  "/nix/store/03zygx0fmz4w0rjmhwzxhn9c672s2inz-texlive-combined-full-2024-final/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1 5467273 0cee73c1747378d1847fab7d17198658 ""
-  "/nix/store/03zygx0fmz4w0rjmhwzxhn9c672s2inz-texlive-combined-full-2024-final/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1 3353374 c17c5c6897c3be17d688b288ffacff1d ""
-  "/nix/store/03zygx0fmz4w0rjmhwzxhn9c672s2inz-texlive-combined-full-2024-final/share/texmf-var/web2c/texmf.cnf" 1 44167 43604b594cb675f25c8810e4593f0ac6 ""
+["pdflatex"] 1744078320.66514 "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" "main.pdf" "main" 1744078322.32282 2
+  "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" 1744078318.30163 59593 979f6b169ae5ef2c595f3a2fe5b8310d ""
+  "/nix/store/ch7h3j2zn6c044i3i3qpcz5fq6y2q9xs-texlive-combined-full-2024-final/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1 5467273 062be193843bcc34c52a107838b77640 ""
+  "/nix/store/ch7h3j2zn6c044i3i3qpcz5fq6y2q9xs-texlive-combined-full-2024-final/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1 3353374 c17c5c6897c3be17d688b288ffacff1d ""
+  "/nix/store/ch7h3j2zn6c044i3i3qpcz5fq6y2q9xs-texlive-combined-full-2024-final/share/texmf-var/web2c/texmf.cnf" 1 44167 0ee7d8a4c6ce054f14eae62ff1adf1a5 ""
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1 2971 def0b6c1f0b107b3b936def894055589 ""
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/map/fontname/texfonts.map" 1 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -230,10 +230,10 @@
   "images/AS-IS.jpg" 1743875510.97764 2845677 f95eb109fdf6d9c958edc6ccafd4cbfc ""
   "images/TO-BE.jpg" 1743875515.39884 4110757 b1504e4160128b71af96d867a398c103 ""
   "images/UFPE.jpg" 1743874042.9783 87640 45cedac9f9b5a18f8d30afb9b5d551c5 ""
-  "main.aux" 1743876364.72463 7844 efd841f101f16c0e28584ea2d748e01b "pdflatex"
-  "main.out" 1743876364.72563 8910 59201f5c85dab4fde9d588b79a75cc7d "pdflatex"
-  "main.tex" 1743876362.27361 59444 3ffd319f3b08de80c11df08ef4c64350 ""
-  "main.toc" 1743876364.72563 3985 43f39056b2f845e162b45bbcdb02a70f "pdflatex"
+  "main.aux" 1744078322.09684 7845 db2dafa19eb781e0afb3866e437b0f4b "pdflatex"
+  "main.out" 1744078322.09784 8910 59201f5c85dab4fde9d588b79a75cc7d "pdflatex"
+  "main.tex" 1744078318.30163 59593 979f6b169ae5ef2c595f3a2fe5b8310d ""
+  "main.toc" 1744078322.09884 3986 b96444c9a4454d353a0881dab8718615 "pdflatex"
   (generated)
   "main.aux"
   "main.log"

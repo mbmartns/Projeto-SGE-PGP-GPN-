@@ -165,7 +165,6 @@ Eric Bezerra Londres Barreto & Arquiteto de Soluções / Especialista em IA \\
 \hline
 Lucas Lucena Xavier de Morais & Desenvolvedor / Integração de Sistemas \\
 \hline
-Sara Simone Emilay de Araujo Pereira & Analista de Negócios / Interface com Cliente \\
 \hline
 Luis Felipe Guedes Souto Moreira & Desenvolvedor / Engenheiro de Dados \\
 \hline
@@ -178,7 +177,7 @@ Vinicius Nobre da Silva Prazeres & Analista de Qualidade / Testes \\
 \end{tabular}
 \end{table}
 
-Além da equipe diretamente envolvida no desenvolvimento e implementação, o projeto conta com o apoio e colaboração de:
+\pagebreak
 
 \begin{itemize}
     \item Mauro César de Oliveira (Especialista em Segurança do Trabalho - SIASS/IFPE)
@@ -287,11 +286,17 @@ Cada um desses macroprocessos é composto por diversos subprocessos e atividades
 
 O fluxo de trabalho atual do setor de Segurança do Trabalho no IFPE segue uma abordagem predominantemente manual e fragmentada, conforme detalhado nas atas de reunião. A seguir, apresentamos a modelagem do processo genérico que representa a maior parte das solicitações:
 
-\begin{figure}[h]
-\centering
-\includegraphics[width=0.9\textwidth]{images/AS-IS.jpg}
+\clearpage
+\begin{landscape}
+\thispagestyle{fancy}
+\begin{figure}[H]
+\makebox[\linewidth][c]{
+\includegraphics[width=0.98\paperwidth, height=0.9\paperheight, keepaspectratio]{images/AS-IS.jpg}
+}
 \caption{Processo Atual (As-Is) de Solicitação de Segurança do Trabalho}
 \end{figure}
+\end{landscape}
+\clearpage
 
 Este processo As-Is apresenta diversas ineficiências e pontos de gargalo, conforme identificado nas reuniões com o cliente:
 
@@ -341,50 +346,39 @@ Apesar das ineficiências identificadas, o processo atual apresenta algumas vant
 \end{itemize}
 
 \subsubsection{Desafios: O que pode melhorar?}
-A análise do processo atual revelou os seguintes desafios e pontos de melhoria:
+A análise do processo atual revelou diversos desafios e oportunidades de melhoria nos processos de segurança do trabalho do IFPE. A seguir, destacamos os principais pontos identificados:
 
 \textbf{Problemas de Comunicação:}
+
 \begin{itemize}
-    \item \textbf{Canais Informais:} Conforme relatado pelo cliente: \textit{"Hoje é César faz a entrevista e vai lá e vai anotando. Hoje é no papel [...] ele gera um documento doc Word na narrativa."} (Ata de reunião de 06/02/2025)
-    
-    \item \textbf{Falta de Padronização:} \textit{"Muitas vezes chega em César só o pedido [...] aí pega o processo. Liga para o diretor. Quem é que tá querendo aí aí começa essa parte."} (Ata de reunião de 06/02/2025)
-    
-    \item \textbf{Retrabalho Constante:} \textit{"César vai embora e o pessoal do laboratório vai passar sei lá uma semana para juntar esse documento. Percebeu que eu já poderia ter isso antes?"} (Ata de reunião de 06/02/2025)
-    
-    \item \textbf{Dificuldade de acesso à documentação:} \textit{"Os documentos estão dispersos em diversos sistemas e formatos."} (Ata de reunião de 25/03/2025)
-    
-    \item \textbf{Subnotificação de acidentes:} \textit{"Muitos servidores não registram pequenos acidentes por receio ou desconhecimento."} (Ata de reunião de 25/03/2025)
+    \item \textbf{Canais Informais:} Atualmente, as entrevistas realizadas pelos profissionais são anotadas manualmente em papel, sendo posteriormente transcritas para documentos no formato Word. Esse procedimento é relatado como ineficiente e suscetível a erros.
+
+    \item \textbf{Falta de Padronização:} As solicitações são frequentemente encaminhadas de maneira informal e sem informações completas, o que leva a interrupções no fluxo de trabalho para buscar detalhes adicionais com gestores ou responsáveis.
+
+    \item \textbf{Retrabalho Constante:} Após a coleta inicial de informações, há um intervalo significativo até que os documentos sejam consolidados, muitas vezes levando até uma semana para serem finalizados, devido à falta de automação e integração dos dados coletados.
+
+    \item \textbf{Dificuldade de Acesso à Documentação:} Os documentos gerados estão dispersos em diferentes sistemas e formatos, dificultando o acesso centralizado e a recuperação de informações.
+
+    \item \textbf{Subnotificação de Acidentes:} Foi identificado que muitos servidores não registram pequenos acidentes devido ao receio ou ao desconhecimento dos procedimentos adequados para formalizar esses registros.
 \end{itemize}
 
 \textbf{Problemas Organizacionais:}
+
 \begin{itemize}
-    \item \textbf{Equipe Reduzida:} \textit{"A equipe de César é pequena e ele tem muita demanda então acaba que esse tratamento Inicial [...] é um problema."} (Ata de reunião de 06/02/2025)
-    
-    \item \textbf{Falta de Recursos Dedicados:} \textit{"Não tem um canal de atendimento. O nosso problema não é a formalização o nosso problema é que a formalização ela é feita inicial no processo ainda imaturo."} (Ata de reunião de 06/02/2025)
-    
-    \item \textbf{Complexidade das Demandas:} \textit{"Às vezes é uma energia nuclear não tem [...] ele teria que ir atrás de um professor da área de energia do Instituto Federal."} (Ata de reunião de 06/02/2025)
-    
-    \item \textbf{Sistema SEI inadequado:} \textit{"O sistema atual é voltado para processos que têm início e fim, enquanto documentos de segurança são contínuos e precisam ser constantemente atualizados."} (Ata de reunião de 25/03/2025)
-    
-    \item \textbf{Falta de digitalização e padronização visual:} \textit{"Os documentos são predominantemente textuais, sem recursos visuais que facilitariam sua compreensão."} (Ata de reunião de 25/03/2025)
+    \item \textbf{Equipe Reduzida:} A equipe atual responsável pelos processos de segurança do trabalho é pequena e enfrenta dificuldades para atender a alta demanda, resultando em atrasos e sobrecarga dos profissionais.
+
+    \item \textbf{Falta de Recursos Dedicados:} A ausência de um canal formal de atendimento e um fluxo estruturado para registro e processamento das solicitações prejudica a eficiência operacional.
+
+    \item \textbf{Complexidade das Demandas:} Alguns casos específicos, como os que envolvem riscos avançados ou conhecimentos técnicos especializados, requerem suporte de outros departamentos, o que aumenta a complexidade da gestão.
+
+    \item \textbf{Sistema SEI Inadequado:} O sistema atualmente utilizado, o SEI, não foi concebido para a gestão contínua de documentos de segurança do trabalho, pois é voltado para processos que têm início e fim definidos.
+
+    \item \textbf{Falta de Digitalização e Padronização Visual:} A predominância de documentos textuais, sem recursos visuais ou gráficos, dificulta a compreensão das informações por parte dos usuários.
 \end{itemize}
 
 \subsubsection{Justificativa}
-Os problemas identificados no processo atual decorrem principalmente das seguintes causas raiz:
 
-\begin{enumerate}
-    \item \textbf{Ausência de um sistema específico para segurança do trabalho:} A utilização de sistemas genéricos (como o SEI) ou soluções fragmentadas não atende às necessidades específicas dos processos de segurança do trabalho.
-    
-    \item \textbf{Falta de padronização de processos e documentos:} Sem modelos e fluxos pré-definidos, cada solicitação é tratada de forma diferente, gerando inconsistências e retrabalho.
-    
-    \item \textbf{Comunicação fragmentada:} A utilização de múltiplos canais não integrados (e-mail, telefone, papel, SEI) dificulta o acompanhamento e a gestão das solicitações.
-    
-    \item \textbf{Equipe limitada para o volume de demandas:} O dimensionamento inadequado da equipe em relação ao volume e complexidade das demandas gera gargalos e atrasos.
-    
-    \item \textbf{Conhecimento centralizado:} Grande parte do conhecimento técnico está concentrado em poucos profissionais, o que cria dependências e vulnerabilidades no processo.
-    
-    \item \textbf{Resistência cultural à digitalização:} A cultura organizacional ainda é voltada para processos físicos e presenciais, dificultando a adoção de soluções digitais.
-\end{enumerate}
+A partir da análise realizada, identificou-se que o problema central no processo atual é a ineficiência no fluxo de solicitações e no acesso à documentação, o que compromete a agilidade e a conformidade dos processos relacionados à segurança do trabalho no SIASS. A causa raiz desse problema é a ausência de um sistema próprio e centralizado para a formalização das solicitações, o que obriga o uso de múltiplos meios de comunicação e favorece o surgimento de processos informais, sem padronização adequada. Entre as causas comuns, destaca-se a falta de padronização das solicitações, que gera retrabalho e consultas manuais para suprir informações ausentes. Além disso, a documentação técnica de difícil acesso nos sistemas atuais dificulta a verificação de detalhes importantes por parte dos profissionais de segurança do trabalho. Como causa especial, observa-se a ausência de integração entre os sistemas e a não disponibilização facilitada de materiais normativos essenciais, o que aumenta a dificuldade para manter a conformidade com as rigorosas normas regulamentadoras da CLT.
 
 \clearpage
 \subsection{Estado Desejado}
@@ -482,11 +476,16 @@ Análise de dados & Ausência de ferramentas para análise de dados e geração 
 
 O estado desejado prevê uma transformação significativa nos processos de segurança do trabalho, com a implementação do chatbot com IA como ponto central de interação. A seguir, apresentamos a modelagem do processo genérico no estado desejado:
 
+\begin{landscape}
+\thispagestyle{fancy}
 \begin{figure}[H]
-\centering
-\includegraphics[width=0.9\textwidth]{images/TO-BE.jpg}
+\makebox[\linewidth][c]{
+\includegraphics[width=0.98\paperwidth, height=0.9\paperheight, keepaspectratio]{images/TO-BE.jpg}
+}
 \caption{Processo Futuro (To-Be) de Solicitação de Segurança do Trabalho}
 \end{figure}
+\end{landscape}
+\clearpage
 
 Este processo To-Be apresenta melhorias significativas em relação ao processo atual:
 
@@ -859,39 +858,39 @@ A estimativa de custos para a implantação do chatbot com IA para processos de 
 \rowcolor{gray!20}
 \textbf{Categoria} & \textbf{Item} & \textbf{Valor Mensal (R\$)} & \textbf{Valor Total (R\$)} \\
 \hline
-\multirow{5}{*}{Recursos Humanos} & Equipe interna (dedicação parcial) & 15.000,00 & 180.000,00 \\
+\multirow{5}{*}{Recursos Humanos} & Equipe interna (dedicação parcial) & 12.000,00 & 144.000,00 \\
 \cline{2-4}
- & Consultoria especializada em IA & 20.000,00 & 80.000,00 (4 meses) \\
+ & Consultoria especializada em IA & 15.000,00 & 45.000,00 (3 meses) \\
 \cline{2-4}
- & Desenvolvimento terceirizado & 35.000,00 & 210.000,00 (6 meses) \\
+ & Desenvolvimento terceirizado & 25.000,00 & 125.000,00 (5 meses) \\
 \cline{2-4}
- & Suporte técnico pós-implantação & 10.000,00 & 60.000,00 (6 meses) \\
+ & Suporte técnico pós-implantação & 8.000,00 & 48.000,00 (6 meses) \\
 \cline{2-4}
- & \textbf{Subtotal RH} & & \textbf{530.000,00} \\
+ & \textbf{Subtotal RH} & & \textbf{362.000,00} \\
 \hline
-\multirow{4}{*}{\parbox{2.8cm}{Infraestrutura\\ e Serviços}} & Servidores em nuvem & 5.000,00 & 60.000,00 \\
+\multirow{4}{*}{\parbox{2.8cm}{Infraestrutura\\ e Serviços}} & Servidores em nuvem & 3.500,00 & 42.000,00 \\
 \cline{2-4}
- & Serviços AWS (Bedrock, S3, RDS) & 8.000,00 & 96.000,00 \\
+ & Serviços AWS (Bedrock, S3, RDS) & 5.500,00 & 66.000,00 \\
 \cline{2-4}
- & API WhatsApp Business & 2.500,00 & 30.000,00 \\
+ & API WhatsApp Business & 1.800,00 & 21.600,00 \\
 \cline{2-4}
- & \textbf{Subtotal Infraestrutura} & & \textbf{186.000,00} \\
+ & \textbf{Subtotal Infraestrutura} & & \textbf{129.600,00} \\
 \hline
-\multirow{3}{*}{\parbox{2.8cm}{Licenças e\\ Ferramentas}} & Ferramentas de desenvolvimento & - & 15.000,00 (único) \\
+\multirow{3}{*}{\parbox{2.8cm}{Licenças e\\ Ferramentas}} & Ferramentas de desenvolvimento & - & 10.000,00 (único) \\
 \cline{2-4}
- & Licenças de software & 2.000,00 & 24.000,00 \\
+ & Licenças de software & 1.500,00 & 18.000,00 \\
 \cline{2-4}
- & \textbf{Subtotal Licenças} & & \textbf{39.000,00} \\
+ & \textbf{Subtotal Licenças} & & \textbf{28.000,00} \\
 \hline
-\multirow{4}{*}{Outros Custos} & Treinamento de usuários & - & 25.000,00 (único) \\
+\multirow{4}{*}{Outros Custos} & Treinamento de usuários & - & 18.000,00 (único) \\
 \cline{2-4}
- & Documentação e materiais & - & 10.000,00 (único) \\
+ & Documentação e materiais & - & 8.000,00 (único) \\
 \cline{2-4}
- & Contingência (15\%) & - & 118.500,00 \\
+ & Contingência (15\%) & - & 81.840,00 \\
 \cline{2-4}
- & \textbf{Subtotal Outros} & & \textbf{153.500,00} \\
+ & \textbf{Subtotal Outros} & & \textbf{107.840,00} \\
 \hline
-\multicolumn{2}{|r|}{\textbf{TOTAL}} & & \textbf{908.500,00} \\
+\multicolumn{2}{|r|}{\textbf{TOTAL}} & & \textbf{627.440,00} \\
 \hline
 \end{tabular}
 \end{tcolorbox}
@@ -901,11 +900,11 @@ A estimativa de custos para a implantação do chatbot com IA para processos de 
 \textbf{Observações sobre os custos:}
 
 \begin{itemize}
-    \item A estimativa considera um horizonte de 12 meses, que inclui as fases de preparação, piloto, expansão e consolidação.
-    \item Parte dos recursos humanos será alocada de equipes existentes no IFPE, com dedicação parcial ao projeto.
-    \item Os custos de infraestrutura consideram uma abordagem baseada em nuvem para maior escalabilidade e menor investimento inicial.
-    \item O item "Contingência" reserva 15\% do orçamento para lidar com imprevistos e ajustes necessários durante a implementação.
-    \item Os custos podem ser otimizados através de parcerias acadêmicas e utilização de recursos próprios do IFPE.
+    \item A estimativa foi otimizada para um horizonte de 10 meses, incluindo as mesmas fases de preparação, piloto, expansão e consolidação, porém com maior eficiência.
+    \item Utilizaremos recursos internos de forma mais intensiva, resultando em menor dependência de consultoria externa.
+    \item A abordagem em nuvem foi renegociada para obter descontos significativos de volume e compromisso anual.
+    \item A estratégia de desenvolvimento foi redesenhada para utilizar componentes reutilizáveis e frameworks open-source.
+    \item A redução de 31\% no orçamento total (de R\$ 908.500,00 para R\$ 627.440,00) foi obtida sem comprometer os objetivos centrais do projeto.
 \end{itemize}
 
 \subsection{Cronograma Macro}
