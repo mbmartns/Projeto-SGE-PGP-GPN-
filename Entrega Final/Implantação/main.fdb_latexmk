@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1744139191.94966 "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" "main.pdf" "main" 1744139193.85104 0
-  "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" 1744139191.11005 78282 262f07c0720b4ec002d40062b7293bb3 ""
+["pdflatex"] 1744163057.83503 "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" "main.pdf" "main" 1744163059.798 0
+  "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" 1744163057.43798 82381 484efd2382d2b926fa9fe3971c13f629 ""
   "/nix/store/ch7h3j2zn6c044i3i3qpcz5fq6y2q9xs-texlive-combined-full-2024-final/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1 5467273 062be193843bcc34c52a107838b77640 ""
   "/nix/store/ch7h3j2zn6c044i3i3qpcz5fq6y2q9xs-texlive-combined-full-2024-final/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1 3353374 c17c5c6897c3be17d688b288ffacff1d ""
   "/nix/store/ch7h3j2zn6c044i3i3qpcz5fq6y2q9xs-texlive-combined-full-2024-final/share/texmf-var/web2c/texmf.cnf" 1 44167 0ee7d8a4c6ce054f14eae62ff1adf1a5 ""
@@ -234,10 +234,10 @@
   "images/AS-IS.jpg" 1743875510.97764 2845677 f95eb109fdf6d9c958edc6ccafd4cbfc ""
   "images/TO-BE.jpg" 1743875515.39884 4110757 b1504e4160128b71af96d867a398c103 ""
   "images/UFPE.jpg" 1743874042.9783 87640 45cedac9f9b5a18f8d30afb9b5d551c5 ""
-  "main.aux" 1744139193.61821 11960 3218c5e1a9b324254f8062ec3d646b6c "pdflatex"
-  "main.out" 1744139193.62021 13204 25607ffde186ab0b8ad0007a4c72b594 "pdflatex"
-  "main.tex" 1744139191.11005 78282 262f07c0720b4ec002d40062b7293bb3 ""
-  "main.toc" 1744139193.62021 5222 2cceaf31ac19663305e953e5d6c3c789 "pdflatex"
+  "main.aux" 1744163059.54798 12260 930ab3af1d14130000bfabad29963674 "pdflatex"
+  "main.out" 1744163059.55098 13393 407d76454b7e3ac8c94f5d73e341bdb7 "pdflatex"
+  "main.tex" 1744163057.43798 82381 484efd2382d2b926fa9fe3971c13f629 ""
+  "main.toc" 1744163059.55098 5310 bc7f9945d97bf970c568b89c6227667b "pdflatex"
   (generated)
   "main.aux"
   "main.log"

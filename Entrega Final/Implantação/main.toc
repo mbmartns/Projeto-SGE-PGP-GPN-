@@ -6,47 +6,48 @@
 \contentsline {subsection}{\numberline {2.1}Histórico da unidade de negócio}{5}{subsection.8}%
 \contentsline {subsection}{\numberline {2.2}Principais stakeholders}{6}{subsection.9}%
 \contentsline {subsection}{\numberline {2.3}Objetivos da unidade de negócio}{6}{subsection.11}%
-\contentsline {subsection}{\numberline {2.4}Sistema/solução atualmente implantado(a)}{7}{subsection.12}%
-\contentsline {section}{\numberline {3}Análise de estados}{8}{section.13}%
-\contentsline {subsection}{\numberline {3.1}Estado Atual}{8}{subsection.14}%
-\contentsline {subsubsection}{\numberline {3.1.1}Escopo do processo}{8}{subsubsection.15}%
-\contentsline {subsubsection}{\numberline {3.1.2}Processos - As Is (Modelagem dos processos atualmente implementados)}{8}{subsubsection.16}%
-\contentsline {subsubsection}{\numberline {3.1.3}Vantagens: O que é bom?}{11}{subsubsection.23}%
-\contentsline {subsubsection}{\numberline {3.1.4}Desafios: O que pode melhorar?}{12}{subsubsection.24}%
-\contentsline {subsubsection}{\numberline {3.1.5}Justificativa}{12}{subsubsection.25}%
-\contentsline {subsection}{\numberline {3.2}Estado Desejado}{14}{subsection.26}%
-\contentsline {subsection}{\numberline {3.3}Análise de Gaps}{14}{subsection.27}%
-\contentsline {subsubsection}{\numberline {3.3.1}Arquitetura de Negócios}{14}{subsubsection.28}%
-\contentsline {subsubsection}{\numberline {3.3.2}Arquitetura de Sistemas de Informação}{14}{subsubsection.31}%
-\contentsline {subsubsection}{\numberline {3.3.3}Arquitetura de Dados}{18}{subsubsection.34}%
-\contentsline {subsubsection}{\numberline {3.3.4}Arquitetura de Tecnologia}{20}{subsubsection.37}%
-\contentsline {subsubsection}{\numberline {3.3.5}Processos e Visualização de Sistemas}{20}{subsubsection.40}%
-\contentsline {subsubsection}{\numberline {3.3.6}Processos - To Be (Modelagem dos processos melhorados)}{20}{subsubsection.45}%
-\contentsline {section}{\numberline {4}Conclusões e Considerações Finais}{20}{section.46}%
-\contentsline {subsection}{\numberline {4.1}Resultados esperados}{24}{subsection.56}%
-\contentsline {section}{\numberline {5}Resultados Esperados}{24}{section.57}%
-\contentsline {subsection}{\numberline {5.1}1. Processo Padronizado e Centralizado}{24}{subsection.58}%
-\contentsline {subsection}{\numberline {5.2}2. Redução de Retrabalho e Maior Precisão}{24}{subsection.59}%
-\contentsline {subsection}{\numberline {5.3}3. Agendamento Ágil e Automatizado}{24}{subsection.60}%
-\contentsline {subsection}{\numberline {5.4}4. Relatórios Automatizados e Padronizados}{25}{subsection.61}%
-\contentsline {subsection}{\numberline {5.5}5. Respostas Rápidas a Dúvidas Técnicas}{25}{subsection.62}%
-\contentsline {subsection}{\numberline {5.6}6. Ganho de Tempo e Eficiência}{25}{subsection.63}%
-\contentsline {section}{\numberline {6}Plano de Ação}{26}{section.64}%
-\contentsline {subsection}{\numberline {6.1}Visão geral da proposta de solução}{26}{subsection.65}%
-\contentsline {subsection}{\numberline {6.2}Estratégia de Implantação}{27}{subsection.71}%
-\contentsline {subsubsection}{\numberline {6.2.1}Análise SWOT}{27}{subsubsection.72}%
-\contentsline {subsubsection}{\numberline {6.2.2}Estratégia selecionada}{27}{subsubsection.77}%
-\contentsline {subsubsection}{\numberline {6.2.3}Infraestrutura necessária}{29}{subsubsection.83}%
-\contentsline {subsubsection}{\numberline {6.2.4}Metodologia de trabalho}{30}{subsubsection.85}%
-\contentsline {subsection}{\numberline {6.3}Dimensionamento e Perfil da Equipe para a Implantação da Melhoria}{32}{subsection.92}%
-\contentsline {subsection}{\numberline {6.4}Custos Associados à Implantação da Melhoria}{33}{subsection.94}%
-\contentsline {subsection}{\numberline {6.5}Cronograma Macro}{34}{subsection.96}%
-\contentsline {subsection}{\numberline {6.6}Plano de medições e análise}{37}{subsection.99}%
-\contentsline {subsubsection}{\numberline {6.6.1}Indicador: Tempo médio de preenchimento de formulários}{37}{subsubsection.100}%
-\contentsline {subsubsection}{\numberline {6.6.2}Indicador: Taxa de preenchimento correto na primeira tentativa}{37}{subsubsection.101}%
-\contentsline {subsubsection}{\numberline {6.6.3}Indicador: Consultas básicas direcionadas à equipe técnica}{37}{subsubsection.102}%
-\contentsline {subsubsection}{\numberline {6.6.4}Indicador: Dúvidas atendidas sem intervenção humana}{38}{subsubsection.103}%
-\contentsline {subsubsection}{\numberline {6.6.5}Indicador: Satisfação do usuário}{38}{subsubsection.104}%
-\contentsline {subsubsection}{\numberline {6.6.6}Indicador: Tempo de resposta para solicitações}{38}{subsubsection.105}%
-\contentsline {subsubsection}{\numberline {6.6.7}Indicador: Volume de documentação digital vs. papel}{39}{subsubsection.106}%
-\contentsline {section}{\numberline {7}Conclusões e Considerações Finais}{40}{section.107}%
+\contentsline {subsection}{\numberline {2.4}Valores de Negócio}{7}{subsection.12}%
+\contentsline {subsection}{\numberline {2.5}Sistema/solução atualmente implantado(a)}{7}{subsection.14}%
+\contentsline {section}{\numberline {3}Análise de estados}{9}{section.15}%
+\contentsline {subsection}{\numberline {3.1}Estado Atual}{9}{subsection.16}%
+\contentsline {subsubsection}{\numberline {3.1.1}Escopo do processo}{9}{subsubsection.17}%
+\contentsline {subsubsection}{\numberline {3.1.2}Processos - As Is (Modelagem dos processos atualmente implementados)}{10}{subsubsection.18}%
+\contentsline {subsubsection}{\numberline {3.1.3}Vantagens: O que é bom?}{13}{subsubsection.29}%
+\contentsline {subsubsection}{\numberline {3.1.4}Desafios: O que pode melhorar?}{14}{subsubsection.30}%
+\contentsline {subsubsection}{\numberline {3.1.5}Justificativa}{14}{subsubsection.31}%
+\contentsline {subsection}{\numberline {3.2}Estado Desejado}{16}{subsection.32}%
+\contentsline {subsection}{\numberline {3.3}Análise de Gaps}{16}{subsection.33}%
+\contentsline {subsubsection}{\numberline {3.3.1}Arquitetura de Negócios}{16}{subsubsection.34}%
+\contentsline {subsubsection}{\numberline {3.3.2}Arquitetura de Sistemas de Informação}{16}{subsubsection.37}%
+\contentsline {subsubsection}{\numberline {3.3.3}Arquitetura de Dados}{20}{subsubsection.40}%
+\contentsline {subsubsection}{\numberline {3.3.4}Arquitetura de Tecnologia}{22}{subsubsection.43}%
+\contentsline {subsubsection}{\numberline {3.3.5}Processos e Visualização de Sistemas}{22}{subsubsection.46}%
+\contentsline {subsubsection}{\numberline {3.3.6}Processos - To Be (Modelagem dos processos melhorados)}{22}{subsubsection.51}%
+\contentsline {section}{\numberline {4}Conclusões e Considerações Finais}{22}{section.52}%
+\contentsline {subsection}{\numberline {4.1}Resultados esperados}{26}{subsection.62}%
+\contentsline {section}{\numberline {5}Resultados Esperados}{26}{section.63}%
+\contentsline {subsection}{\numberline {5.1}1. Processo Padronizado e Centralizado}{26}{subsection.64}%
+\contentsline {subsection}{\numberline {5.2}2. Redução de Retrabalho e Maior Precisão}{26}{subsection.65}%
+\contentsline {subsection}{\numberline {5.3}3. Agendamento Ágil e Automatizado}{26}{subsection.66}%
+\contentsline {subsection}{\numberline {5.4}4. Relatórios Automatizados e Padronizados}{27}{subsection.67}%
+\contentsline {subsection}{\numberline {5.5}5. Respostas Rápidas a Dúvidas Técnicas}{27}{subsection.68}%
+\contentsline {subsection}{\numberline {5.6}6. Ganho de Tempo e Eficiência}{27}{subsection.69}%
+\contentsline {section}{\numberline {6}Plano de Ação}{28}{section.70}%
+\contentsline {subsection}{\numberline {6.1}Visão geral da proposta de solução}{28}{subsection.71}%
+\contentsline {subsection}{\numberline {6.2}Estratégia de Implantação}{29}{subsection.77}%
+\contentsline {subsubsection}{\numberline {6.2.1}Análise SWOT}{29}{subsubsection.78}%
+\contentsline {subsubsection}{\numberline {6.2.2}Estratégia selecionada}{29}{subsubsection.83}%
+\contentsline {subsubsection}{\numberline {6.2.3}Infraestrutura necessária}{31}{subsubsection.89}%
+\contentsline {subsubsection}{\numberline {6.2.4}Metodologia de trabalho}{32}{subsubsection.91}%
+\contentsline {subsection}{\numberline {6.3}Dimensionamento e Perfil da Equipe para a Implantação da Melhoria}{34}{subsection.98}%
+\contentsline {subsection}{\numberline {6.4}Custos Associados à Implantação da Melhoria}{35}{subsection.100}%
+\contentsline {subsection}{\numberline {6.5}Cronograma Macro}{36}{subsection.102}%
+\contentsline {subsection}{\numberline {6.6}Plano de medições e análise}{39}{subsection.105}%
+\contentsline {subsubsection}{\numberline {6.6.1}Indicador: Tempo médio de preenchimento de formulários}{39}{subsubsection.106}%
+\contentsline {subsubsection}{\numberline {6.6.2}Indicador: Taxa de preenchimento correto na primeira tentativa}{39}{subsubsection.107}%
+\contentsline {subsubsection}{\numberline {6.6.3}Indicador: Consultas básicas direcionadas à equipe técnica}{39}{subsubsection.108}%
+\contentsline {subsubsection}{\numberline {6.6.4}Indicador: Dúvidas atendidas sem intervenção humana}{40}{subsubsection.109}%
+\contentsline {subsubsection}{\numberline {6.6.5}Indicador: Satisfação do usuário}{40}{subsubsection.110}%
+\contentsline {subsubsection}{\numberline {6.6.6}Indicador: Tempo de resposta para solicitações}{40}{subsubsection.111}%
+\contentsline {subsubsection}{\numberline {6.6.7}Indicador: Volume de documentação digital vs. papel}{41}{subsubsection.112}%
+\contentsline {section}{\numberline {7}Conclusões e Considerações Finais}{42}{section.113}%
