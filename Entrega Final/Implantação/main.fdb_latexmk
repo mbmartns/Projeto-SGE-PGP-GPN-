@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1744163057.83503 "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" "main.pdf" "main" 1744163059.798 0
-  "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" 1744163057.43798 82381 484efd2382d2b926fa9fe3971c13f629 ""
+["pdflatex"] 1744165961.94315 "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" "main.pdf" "main" 1744165963.77137 0
+  "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" 1744165870.88437 84136 1b085fe590cdca2175a0cb5c9edc285e ""
   "/nix/store/ch7h3j2zn6c044i3i3qpcz5fq6y2q9xs-texlive-combined-full-2024-final/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1 5467273 062be193843bcc34c52a107838b77640 ""
   "/nix/store/ch7h3j2zn6c044i3i3qpcz5fq6y2q9xs-texlive-combined-full-2024-final/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1 3353374 c17c5c6897c3be17d688b288ffacff1d ""
   "/nix/store/ch7h3j2zn6c044i3i3qpcz5fq6y2q9xs-texlive-combined-full-2024-final/share/texmf-var/web2c/texmf.cnf" 1 44167 0ee7d8a4c6ce054f14eae62ff1adf1a5 ""
@@ -24,6 +24,7 @@
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/jknappen/ec/ecti1200.tfm" 1 3072 8b5a64dc91775463bc95e2d818524028 ""
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/jknappen/ec/ecti1728.tfm" 1 3072 c4e6e6654c343ab96bdbac99d696869b ""
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/jknappen/ec/ectt1095.tfm" 1 1536 a988bfe554c1f79514bd46d13c3c64ce ""
+  "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/jknappen/ec/ectt1200.tfm" 1 1536 487c9b46984a816c7ed238d0674595c7 ""
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1 1004 54797486969f23fa377b128694d548df ""
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -60,6 +61,7 @@
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfti1200.pfb" 1 198221 ca5aa71411090ef358a6cc78b7458365 ""
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfti1728.pfb" 1 179164 d2fc35b130efab2ed82ad3396ec43a38 ""
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sftt1095.pfb" 1 169670 48d12e69c9a3b23c81f6d703ccbd4554 ""
+  "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sftt1200.pfb" 1 167085 68de377d2744a68a88fa40a1f610615a ""
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/context/base/mkii/supp-pdf.mkii" 1 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/atbegshi/atbegshi.sty" 1 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/bigintcalc/bigintcalc.sty" 1 40635 c40361e206be584d448876bba8a64a3b ""
@@ -232,12 +234,11 @@
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/xcolor/xcolor.sty" 1 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/xkeyval/xkeyval.sty" 1 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "images/AS-IS.jpg" 1743875510.97764 2845677 f95eb109fdf6d9c958edc6ccafd4cbfc ""
-  "images/TO-BE.jpg" 1743875515.39884 4110757 b1504e4160128b71af96d867a398c103 ""
   "images/UFPE.jpg" 1743874042.9783 87640 45cedac9f9b5a18f8d30afb9b5d551c5 ""
-  "main.aux" 1744163059.54798 12260 930ab3af1d14130000bfabad29963674 "pdflatex"
-  "main.out" 1744163059.55098 13393 407d76454b7e3ac8c94f5d73e341bdb7 "pdflatex"
-  "main.tex" 1744163057.43798 82381 484efd2382d2b926fa9fe3971c13f629 ""
-  "main.toc" 1744163059.55098 5310 bc7f9945d97bf970c568b89c6227667b "pdflatex"
+  "main.aux" 1744165963.52826 12162 3e502c5d38449b6a1bdd0f8814ff4a44 "pdflatex"
+  "main.out" 1744165963.53026 13530 dc822158c043f7c419029d271233d88d "pdflatex"
+  "main.tex" 1744165870.88437 84136 1b085fe590cdca2175a0cb5c9edc285e ""
+  "main.toc" 1744165963.53026 5384 fbe3b43ee8aa1e5c458cd91246df8e61 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
