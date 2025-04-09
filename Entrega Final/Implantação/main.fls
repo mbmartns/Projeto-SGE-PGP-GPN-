@@ -1,7 +1,7 @@
 PWD /home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação
 INPUT /nix/store/ch7h3j2zn6c044i3i3qpcz5fq6y2q9xs-texlive-combined-full-2024-final/share/texmf-var/web2c/texmf.cnf
 INPUT /nix/store/ch7h3j2zn6c044i3i3qpcz5fq6y2q9xs-texlive-combined-full-2024-final/share/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex
+INPUT main.tex
 OUTPUT main.log
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/base/article.cls
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/base/article.cls
@@ -396,16 +396,12 @@ INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-fin
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT ./images/TO-BE.jpg
-INPUT ./images/TO-BE.jpg
-INPUT ./images/TO-BE.jpg
-INPUT ./images/TO-BE.jpg
-INPUT ./images/TO-BE.jpg
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/jknappen/ec/ecbx0800.tfm
+INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/jknappen/ec/ectt1200.tfm
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
@@ -424,3 +420,4 @@ INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-fin
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfti1200.pfb
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfti1728.pfb
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sftt1095.pfb
+INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sftt1200.pfb

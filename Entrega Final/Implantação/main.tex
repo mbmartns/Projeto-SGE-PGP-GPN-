@@ -85,7 +85,7 @@
     filecolor=magenta,      
     urlcolor=cyan,
     pdftitle={Plano de Implantação - Chatbot com IA para Processos de Segurança do Trabalho IFPE},
-    pdfauthor={Pedro Balbino, Eric Barreto, Lucas Lucena, Sara Pereira, Luis Felipe Guedes},
+    pdfauthor={Maria Beatriz Martins (Bia), Pedro Balbino, Eric Barreto, Lucas Lucena, Sara Pereira, Luis Felipe Guedes},
 }
 
 \begin{document}
@@ -177,7 +177,7 @@ A equipe responsável pela elaboração deste plano de implantação e pela cond
 \hline
 \textbf{Nome} & \textbf{Função no Projeto} \\
 \hline
-Pedro Henrique Souza Balbino & Gerente de Projeto / Analista de Processos \\
+Pedro Henrique Souza Balbino & Analista de Processos / Gerente de Projeto \\
 \hline
 Eric Bezerra Londres Barreto & Arquiteto de Soluções / Especialista em IA \\
 \hline
@@ -381,13 +381,6 @@ Este fluxo de trabalho atual pode ser descrito em quatro etapas principais:
 \end{figure}
 \end{landscape}
 
-\begin{landscape}
-\begin{figure}[p]
-\centering
-\includegraphics[width=0.85\paperwidth, height=0.8\paperheight, keepaspectratio]{images/TO-BE.jpg}
-\caption{Processo Futuro (To-Be) de Solicitação de Segurança do Trabalho. \\ Diagrama original: \url{https://lucid.app/lucidchart/c518578e-1e72-429d-8a8d-1e0801ad0fb8/edit?invitationId=inv_db2d0895-3d2c-4aa4-a92c-9416611973d1&page=QSIJBMCcx_hD}}
-\end{figure}
-\end{landscape}
 
 Este processo As-Is apresenta diversas ineficiências e pontos de gargalo, conforme identificado nas reuniões com o cliente:
 
@@ -494,9 +487,8 @@ Este estado futuro não apenas elimina as ineficiências do processo atual, mas 
 
 \subsection{Análise de Gaps}
 
-\subsubsection{Arquitetura de Negócios}
-
 \begin{table}[htbp]
+\caption*{\textbf{Arquitetura de Negócios}}
 \centering
 \resizebox{0.9\textwidth}{!}{
 \begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|p{4cm}|}
@@ -538,9 +530,8 @@ Este estado futuro não apenas elimina as ineficiências do processo atual, mas 
 \caption{Análise de Gaps com foco em Processos de Negócio}
 \end{table}
 
-\subsubsection{Arquitetura de Sistemas de Informação}
-
 \begin{table}[htbp]
+\caption*{\textbf{Arquitetura de Sistemas de Informação}}
 \centering
 \resizebox{0.9\textwidth}{!}{
 \begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|p{4cm}|}
@@ -589,9 +580,8 @@ Este estado futuro não apenas elimina as ineficiências do processo atual, mas 
 \end{table}
 
 \clearpage
-\subsubsection{Arquitetura de Dados}
-
 \begin{table}[htbp]
+\caption*{\textbf{Arquitetura de Dados}}
 \centering
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|p{4cm}|}
@@ -638,11 +628,8 @@ Este estado futuro não apenas elimina as ineficiências do processo atual, mas 
 \caption{Análise de Gaps com foco em Dados}
 \end{table}
 \clearpage
-
-\clearpage
-\subsubsection{Arquitetura de Tecnologia}
-
 \begin{table}[htbp]
+\caption*{\textbf{Arquitetura de Tecnologia}}
 \centering
 \resizebox{\textwidth}{!}{
 \begin{tabular}{|p{4cm}|p{4cm}|p{4cm}|p{4cm}|}
@@ -685,9 +672,8 @@ Este estado futuro não apenas elimina as ineficiências do processo atual, mas 
 \caption{Análise de Gaps com foco em Tecnologia}
 \end{table}
 
-\subsubsection{Processos e Visualização de Sistemas}
-
 \begin{table}[htbp]
+\caption*{\textbf{Processos e Visualização de Sistemas}}
 \centering
 \begin{minipage}{0.8\textwidth}
 \centering
@@ -777,7 +763,9 @@ Banco de Dados Centralizado \\
 \end{minipage}
 \end{table}
 
-\subsubsection{Processos - To Be (Modelagem dos processos melhorados)}
+\begin{center}
+\textbf{Processos - To Be (Modelagem dos processos melhorados)}
+\end{center}
 
 O estado desejado prevê uma transformação significativa nos processos de segurança do trabalho, com a implementação do chatbot com IA como ponto central de interação. A seguir, apresentamos a modelagem do processo genérico no estado desejado:
 
@@ -935,10 +923,24 @@ A solução proposta consiste em um chatbot impulsionado por Inteligência Artif
     
     \item \textbf{Backend inteligente:}
     \begin{itemize}
-        \item Motor de processamento de linguagem natural: Baseado em AWS Bedrock
-        \item Base de conhecimento vetorial: Para busca semântica em documentos técnicos
-        \item Sistema de formulários inteligentes: Com validação em tempo real e preenchimento assistido
-        \item Orquestrador de processos: Para gestão de fluxos e integrações
+        \item Recebimento de webhooks da API do WhatsApp: Integração utilizando Meta Cloud API ou APIs abstratas como ManyChat ou Z-API
+        \item Conexão com banco de dados: Armazenamento centralizado das informações recebidas
+        \item Motor de processamento de linguagem natural: Implementação baseada em AWS Bedrock
+        \item Base de conhecimento vetorial: Busca semântica em documentos técnicos
+        \item Sistema de formulários inteligentes: Validação em tempo real e preenchimento assistido
+        \item Orquestrador de processos: Gestão integrada dos fluxos e integrações
+    \end{itemize}
+    
+    \item \textbf{Integração com o SEI:}
+    \begin{itemize}
+        \item A integração com o SEI será flexível, adaptando-se às diversas implementações devido à falta de padronização nacional
+        \item Abordagem híbrida:
+        \begin{itemize}
+            \item Uso da API oficial (quando disponível): Integração via RESTful API com autenticação segura e padronizada
+            \item Exemplo: SEI-SP (\url{https://sei.prefeitura.sp.gov.br/api})
+            \item Automação via Selenium (ausência de API oficial): Simulação do usuário utilizando ferramentas como Selenium ou Playwright
+            \item Navegação, preenchimento de formulários, envio de documentos e acompanhamento automatizado com logs detalhados e segurança
+        \end{itemize}
     \end{itemize}
     
     \item \textbf{Repositório de conhecimento:}
@@ -1446,6 +1448,37 @@ Para avaliar o sucesso da implantação e os benefícios entregues pela soluçã
 \textbf{Análise de impacto:} O aumento da digitalização facilita o acesso, reduz custos e melhora a gestão documental. A meta é aumentar para 95\% em 12 meses.
 
 \clearpage
+\section{Indicadores GPN}
+
+Esta seção contém os indicadores de Gestão de Processos de Negócio (GPN) elaborados para o monitoramento efetivo do projeto. Conforme designado, o responsável pela criação e manutenção destes indicadores é Eric Bezerra Londres Barreto.
+
+\begin{table}[htbp]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|p{3cm}|p{3cm}|p{4cm}|p{3cm}|p{3cm}|}
+\hline
+\rowcolor{gray!15}\textbf{Indicador} & \textbf{Métrica} & \textbf{Forma de medição} & \textbf{Valor atual} & \textbf{Meta} \\
+\hline
+Tempo de processamento de solicitações & Tempo médio (em dias) & Comparação entre data de abertura e conclusão & 14 dias & 3 dias \\
+\hline
+Taxa de conformidade documental & Percentual de documentos em conformidade & Auditoria amostral & 65\% & 95\% \\
+\hline
+Satisfação do usuário & Nota média (1-10) & Pesquisa pós-atendimento & 6.8 & 9.0 \\
+\hline
+Custo por solicitação processada & Valor em R\$ & Rateio de custos operacionais totais & R\$175,00 & R\$85,00 \\
+\hline
+Taxa de resolução automatizada & Percentual de solicitações resolvidas sem intervenção humana & Relatórios do sistema & 0\% & 70\% \\
+\hline
+Tempo de resposta a emergências & Tempo médio (em horas) & Log do sistema para casos prioritários & 12h & 2h \\
+\hline
+\end{tabular}
+}
+\caption{Indicadores GPN do Projeto}
+\end{table}
+
+Estes indicadores serão monitorados regularmente ao longo da implementação e operação do sistema, com relatórios mensais apresentados à equipe de gerenciamento do projeto e relatórios trimestrais aos stakeholders. A planilha completa com o acompanhamento histórico e detalhado destes indicadores é mantida por Eric Barreto e está disponível no repositório do projeto.
+
+\clearpage
 \section{Conclusões e Considerações Finais}
 
 A implantação do chatbot com IA para processos de segurança do trabalho representa uma oportunidade significativa para transformar e modernizar os serviços prestados pelo setor de Segurança do Trabalho do SIASS/IFPE. Este plano de implantação foi elaborado com base em uma análise detalhada do contexto atual, identificação de desafios e oportunidades, e definição de uma estratégia gradual e iterativa para maximizar as chances de sucesso.
@@ -1487,37 +1520,6 @@ O sucesso desta iniciativa não depende apenas de aspectos tecnológicos, mas pr
 Recomenda-se o início imediato da fase de preparação, seguindo o cronograma e a metodologia definidos neste plano, com acompanhamento regular dos indicadores estabelecidos para avaliar o progresso e o impacto da solução.
 
 \clearpage
-\thispagestyle{empty}
-\section*{Folha de Assinaturas}
-
-\vspace{2cm}
-
-\begin{center}
-\begin{tabular}{p{7cm}p{7cm}}
-\hline
-Pedro Henrique Souza Balbino & Marco Antônio Eugênio Araujo \\
-Gerente de Projeto & Cliente/Representante SIASS \\
-\hline
-\\[1cm]
-\hline
-Eric Bezerra Londres Barreto & Mauro César de Oliveira \\
-Arquiteto de Soluções & Especialista em Segurança do Trabalho \\
-\hline
-\\[1cm]
-\hline
-Sara Simone Emilay de Araujo Pereira & Luis Felipe Guedes Souto Moreira \\
-Analista de Negócios & Desenvolvedor \\
-\hline
-\end{tabular}
-\end{center}
-
-\vfill
-\begin{center}
-\large
-Recife, Abril de 2025
-\end{center}
-
-\clearpage
 \section*{Assinaturas}
 
 Concordamos com o plano de implantação apresentado neste documento:
@@ -1529,7 +1531,7 @@ Concordamos com o plano de implantação apresentado neste documento:
 \begin{tabular}{p{7cm}p{7cm}}
 \makebox[7cm]{\hrulefill} & \makebox[7cm]{\hrulefill} \\
 Pedro Henrique Souza Balbino & Eric Bezerra Londres Barreto \\
-Gerente de Projeto / Analista de Processos & Arquiteto de Soluções / Especialista em IA \\[2em]
+Analista de Processos / Gerente de Projeto & Arquiteto de Soluções / Especialista em IA \\[2em]
 
 \makebox[7cm]{\hrulefill} & \makebox[7cm]{\hrulefill} \\
 Lucas Lucena Xavier de Morais & Sara Simone Emilay de Araujo Pereira \\
