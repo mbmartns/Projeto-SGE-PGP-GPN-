@@ -257,6 +257,36 @@ Os objetivos do setor de Segurança do Trabalho do SIASS/IFPE incluem:
 
 O setor enfrenta desafios significativos devido à equipe reduzida e à alta demanda de serviços, conforme destacado na reunião de 06 de fevereiro de 2025: \textit{"A equipe de César é pequena e ele tem muita demanda então acaba que esse tratamento Inicial [...] é um problema."}
 
+\subsection{Valores de Negócio}
+
+A seguir, apresentamos os valores de negócio identificados para o projeto, conforme a "Prática 4 - SGE e Valores de Negócio":
+
+\begin{table}[htbp]
+\centering
+\resizebox{\textwidth}{!}{
+\begin{tabular}{|p{2cm}|p{4cm}|p{4cm}|p{4cm}|}
+\hline
+\rowcolor{gray!15}\textbf{Dimensão} & \textbf{Problema} & \textbf{Solução Proposta} & \textbf{Valor de Negócio} \\
+\hline
+P, Pr, Tec & Dificuldade dos servidores e terceirizados em acessar informações de segurança & Chatbot acessível para todos & Relacionamento mais estreito com clientes, novos modelos de negócio, eficiência operacional \\
+\hline
+P, Pr & Falta de canal anônimo para denúncias & Implementação de recurso para denúncias anônimas & Melhor tomada de decisões, novos modelos de negócio \\
+\hline
+Pr & Fluxo burocrático lento para registro de acidentes & Automação dos formulários e direcionamento ágil & Excelência operacional \\
+\hline
+Pr, Tec & Dificuldade na atualização e centralização de documentos de segurança & Plataforma unificada para rápido acesso & Excelência operacional, novos modelos de negócio \\
+\hline
+Pr, Tec & Ausência de fluxo automatizado para solicitações de inspeções & Formulários inteligentes integrados ao chatbot & Excelência operacional \\
+\hline
+Pr & Necessidade de conformidade com normas legais de segurança & Automação da análise e alertas para conformidade & Sobrevivência \\
+\hline
+Tec, P & Dificuldade no acompanhamento do status das solicitações & Painel de monitoramento com notificações automáticas & Melhor tomada de decisões, relacionamento mais estreito com clientes \\
+\hline
+\end{tabular}
+}
+\caption{Valores de Negócio Identificados para o Projeto}
+\end{table}
+
 \subsection{Sistema/solução atualmente implantado(a)}
 Atualmente, o setor de Segurança do Trabalho do SIASS utiliza uma combinação de sistemas e processos manuais para gerenciar suas atividades:
 
@@ -303,13 +333,45 @@ O escopo atual dos processos de segurança do trabalho no IFPE engloba uma séri
 
 Cada um desses macroprocessos é composto por diversos subprocessos e atividades, que atualmente são executados de forma fragmentada e com baixo grau de automação.
 
-\subsubsection{Processos - As Is (Modelagem dos processos atualmente implementados)}
-
 O processo atual consiste no atendimento manual às solicitações de segurança do trabalho, iniciando quando um servidor público envia uma demanda ao servidor do SIASS por meio de e-mail ou via SEI. O servidor do SIASS verifica manualmente as informações recebidas e, caso identifique dados incompletos, solicita o reenvio das informações faltantes ao servidor solicitante, prolongando o tempo de resposta.
 
 Uma vez validada a solicitação, o servidor do SIASS abre o processo manualmente e entra em contato com o servidor público para coletar detalhes adicionais, utilizando canais não padronizados (e-mail, ligação telefônica ou mensagens via aplicativos). Após essa etapa, o servidor do SIASS agenda a visita técnica, comunica o solicitante e aguarda confirmação.
 
 Na data agendada, a visita técnica é realizada, e, posteriormente, o servidor do SIASS elabora manualmente o relatório, o registra no SEI e notifica o servidor público sobre a conclusão do processo. Por fim, o documento é arquivado, encerrando o fluxo.
+
+\subsubsection{Processos - As Is (Modelagem dos processos atualmente implementados)}
+
+Este fluxo de trabalho atual pode ser descrito em quatro etapas principais:
+
+\begin{enumerate}
+    \item \textbf{Iniciação do Processo:}
+    \begin{itemize}
+        \item Abertura de processo no sistema SEI
+        \item Documentação inicial frequentemente incompleta
+        \item Ausência de padronização nas solicitações
+    \end{itemize}
+    
+    \item \textbf{Coleta de Informações:}
+    \begin{itemize}
+        \item Processo manual de entrevistas
+        \item Uso de canais informais (telefone pessoal, e-mail)
+        \item Documentação em papel durante visitas
+    \end{itemize}
+    
+    \item \textbf{Análise Técnica:}
+    \begin{itemize}
+        \item Visita presencial ao local
+        \item Avaliação baseada em normas técnicas
+        \item Consulta a especialistas quando necessário
+    \end{itemize}
+    
+    \item \textbf{Documentação:}
+    \begin{itemize}
+        \item Elaboração de relatório em Word
+        \item Inclusão no sistema SEI
+        \item Arquivamento do processo
+    \end{itemize}
+\end{enumerate}
 
 \begin{landscape}
 \begin{figure}[p]
@@ -1454,5 +1516,37 @@ Analista de Negócios & Desenvolvedor \\
 \large
 Recife, Abril de 2025
 \end{center}
+
+\clearpage
+\section*{Assinaturas}
+
+Concordamos com o plano de implantação apresentado neste documento:
+
+\vspace{1cm}
+
+\begin{table}[htbp]
+\centering
+\begin{tabular}{p{7cm}p{7cm}}
+\makebox[7cm]{\hrulefill} & \makebox[7cm]{\hrulefill} \\
+Pedro Henrique Souza Balbino & Eric Bezerra Londres Barreto \\
+Gerente de Projeto / Analista de Processos & Arquiteto de Soluções / Especialista em IA \\[2em]
+
+\makebox[7cm]{\hrulefill} & \makebox[7cm]{\hrulefill} \\
+Lucas Lucena Xavier de Morais & Sara Simone Emilay de Araujo Pereira \\
+Desenvolvedor / Integração de Sistemas & Analista de Requisitos / Gestão da Mudança \\[2em]
+
+\makebox[7cm]{\hrulefill} & \makebox[7cm]{\hrulefill} \\
+Luis Felipe Guedes Souto Moreira & Maria Beatriz Martins Pontes Gonçalo \\
+Desenvolvedor / Engenheiro de Dados & Designer de UX/UI \\[2em]
+
+\makebox[7cm]{\hrulefill} & \makebox[7cm]{\hrulefill} \\
+Pablo Henrique Ferreira da Silva & Vinicius Nobre da Silva Prazeres \\
+Especialista em Segurança da Informação & Analista de Qualidade / Testes \\[2em]
+
+\makebox[7cm]{\hrulefill} & \\
+César de Oliveira & \\
+Especialista em Segurança do Trabalho - SIASS/IFPE & \\
+\end{tabular}
+\end{table}
 
 \end{document}
