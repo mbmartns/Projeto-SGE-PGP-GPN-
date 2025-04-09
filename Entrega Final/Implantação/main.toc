@@ -11,44 +11,44 @@
 \contentsline {section}{\numberline {3}Análise de estados}{9}{section.15}%
 \contentsline {subsection}{\numberline {3.1}Estado Atual}{9}{subsection.16}%
 \contentsline {subsubsection}{\numberline {3.1.1}Escopo do processo}{9}{subsubsection.17}%
-\contentsline {subsubsection}{\numberline {3.1.2}Processos - As Is (Modelagem dos processos atualmente implementados)}{10}{subsubsection.18}%
-\contentsline {subsubsection}{\numberline {3.1.3}Vantagens: O que é bom?}{12}{subsubsection.28}%
-\contentsline {subsubsection}{\numberline {3.1.4}Desafios: O que pode melhorar?}{13}{subsubsection.29}%
-\contentsline {subsubsection}{\numberline {3.1.5}Justificativa}{13}{subsubsection.30}%
-\contentsline {subsection}{\numberline {3.2}Estado Desejado}{15}{subsection.31}%
-\contentsline {subsection}{\numberline {3.3}Análise de Gaps}{15}{subsection.32}%
-\contentsline {subsubsection}{\numberline {3.3.1}Arquitetura de Negócios}{15}{subsubsection.33}%
-\contentsline {subsubsection}{\numberline {3.3.2}Arquitetura de Sistemas de Informação}{15}{subsubsection.36}%
-\contentsline {subsubsection}{\numberline {3.3.3}Arquitetura de Dados}{19}{subsubsection.39}%
-\contentsline {subsubsection}{\numberline {3.3.4}Arquitetura de Tecnologia}{21}{subsubsection.42}%
-\contentsline {subsubsection}{\numberline {3.3.5}Processos e Visualização de Sistemas}{21}{subsubsection.45}%
-\contentsline {subsubsection}{\numberline {3.3.6}Processos - To Be (Modelagem dos processos melhorados)}{21}{subsubsection.50}%
-\contentsline {section}{\numberline {4}Conclusões e Considerações Finais}{21}{section.51}%
-\contentsline {subsection}{\numberline {4.1}Resultados esperados}{25}{subsection.61}%
-\contentsline {section}{\numberline {5}Resultados Esperados}{25}{section.62}%
-\contentsline {subsection}{\numberline {5.1}1. Processo Padronizado e Centralizado}{25}{subsection.63}%
-\contentsline {subsection}{\numberline {5.2}2. Redução de Retrabalho e Maior Precisão}{25}{subsection.64}%
-\contentsline {subsection}{\numberline {5.3}3. Agendamento Ágil e Automatizado}{25}{subsection.65}%
-\contentsline {subsection}{\numberline {5.4}4. Relatórios Automatizados e Padronizados}{26}{subsection.66}%
-\contentsline {subsection}{\numberline {5.5}5. Respostas Rápidas a Dúvidas Técnicas}{26}{subsection.67}%
-\contentsline {subsection}{\numberline {5.6}6. Ganho de Tempo e Eficiência}{26}{subsection.68}%
-\contentsline {section}{\numberline {6}Plano de Ação}{27}{section.69}%
-\contentsline {subsection}{\numberline {6.1}Visão geral da proposta de solução}{27}{subsection.70}%
-\contentsline {subsection}{\numberline {6.2}Estratégia de Implantação}{29}{subsection.77}%
-\contentsline {subsubsection}{\numberline {6.2.1}Análise SWOT}{29}{subsubsection.78}%
-\contentsline {subsubsection}{\numberline {6.2.2}Estratégia selecionada}{30}{subsubsection.83}%
-\contentsline {subsubsection}{\numberline {6.2.3}Infraestrutura necessária}{31}{subsubsection.89}%
-\contentsline {subsubsection}{\numberline {6.2.4}Metodologia de trabalho}{31}{subsubsection.91}%
-\contentsline {subsection}{\numberline {6.3}Dimensionamento e Perfil da Equipe para a Implantação da Melhoria}{33}{subsection.98}%
-\contentsline {subsection}{\numberline {6.4}Custos Associados à Implantação da Melhoria}{34}{subsection.100}%
-\contentsline {subsection}{\numberline {6.5}Cronograma Macro}{35}{subsection.102}%
-\contentsline {subsection}{\numberline {6.6}Plano de medições e análise}{38}{subsection.105}%
-\contentsline {subsubsection}{\numberline {6.6.1}Indicador: Tempo médio de preenchimento de formulários}{38}{subsubsection.106}%
-\contentsline {subsubsection}{\numberline {6.6.2}Indicador: Taxa de preenchimento correto na primeira tentativa}{38}{subsubsection.107}%
-\contentsline {subsubsection}{\numberline {6.6.3}Indicador: Consultas básicas direcionadas à equipe técnica}{38}{subsubsection.108}%
-\contentsline {subsubsection}{\numberline {6.6.4}Indicador: Dúvidas atendidas sem intervenção humana}{39}{subsubsection.109}%
-\contentsline {subsubsection}{\numberline {6.6.5}Indicador: Satisfação do usuário}{39}{subsubsection.110}%
-\contentsline {subsubsection}{\numberline {6.6.6}Indicador: Tempo de resposta para solicitações}{39}{subsubsection.111}%
-\contentsline {subsubsection}{\numberline {6.6.7}Indicador: Volume de documentação digital vs. papel}{40}{subsubsection.112}%
-\contentsline {section}{\numberline {7}Indicadores GPN}{41}{section.113}%
-\contentsline {section}{\numberline {8}Conclusões e Considerações Finais}{42}{section.115}%
+\contentsline {subsubsection}{\numberline {3.1.2}Processos - As Is (Modelagem dos processos atualmente implementados)}{9}{subsubsection.18}%
+\contentsline {subsubsection}{\numberline {3.1.3}Vantagens: O que é bom?}{11}{subsubsection.20}%
+\contentsline {subsubsection}{\numberline {3.1.4}Desafios: O que pode melhorar?}{11}{subsubsection.21}%
+\contentsline {subsubsection}{\numberline {3.1.5}Justificativa}{12}{subsubsection.22}%
+\contentsline {subsection}{\numberline {3.2}Estado Desejado}{13}{subsection.23}%
+\contentsline {subsection}{\numberline {3.3}Análise de Gaps}{15}{subsection.25}%
+\contentsline {subsubsection}{\numberline {3.3.1}Arquitetura de Negócios}{15}{subsubsection.26}%
+\contentsline {subsubsection}{\numberline {3.3.2}Arquitetura de Sistemas de Informação}{15}{subsubsection.29}%
+\contentsline {subsubsection}{\numberline {3.3.3}Arquitetura de Dados}{18}{subsubsection.32}%
+\contentsline {subsubsection}{\numberline {3.3.4}Arquitetura de Tecnologia}{20}{subsubsection.35}%
+\contentsline {subsubsection}{\numberline {3.3.5}Processos e Visualização de Sistemas}{20}{subsubsection.38}%
+\contentsline {subsubsection}{\numberline {3.3.6}Processos - To Be (Modelagem dos processos melhorados)}{20}{subsubsection.43}%
+\contentsline {section}{\numberline {4}Conclusões e Considerações Finais}{20}{section.44}%
+\contentsline {subsection}{\numberline {4.1}Resultados esperados}{24}{subsection.54}%
+\contentsline {section}{\numberline {5}Resultados Esperados}{24}{section.55}%
+\contentsline {subsection}{\numberline {5.1}1. Processo Padronizado e Centralizado}{24}{subsection.56}%
+\contentsline {subsection}{\numberline {5.2}2. Redução de Retrabalho e Maior Precisão}{24}{subsection.57}%
+\contentsline {subsection}{\numberline {5.3}3. Agendamento Ágil e Automatizado}{24}{subsection.58}%
+\contentsline {subsection}{\numberline {5.4}4. Relatórios Automatizados e Padronizados}{25}{subsection.59}%
+\contentsline {subsection}{\numberline {5.5}5. Respostas Rápidas a Dúvidas Técnicas}{25}{subsection.60}%
+\contentsline {subsection}{\numberline {5.6}6. Ganho de Tempo e Eficiência}{25}{subsection.61}%
+\contentsline {section}{\numberline {6}Plano de Ação}{26}{section.62}%
+\contentsline {subsection}{\numberline {6.1}Visão geral da proposta de solução}{26}{subsection.63}%
+\contentsline {subsection}{\numberline {6.2}Estratégia de Implantação}{28}{subsection.70}%
+\contentsline {subsubsection}{\numberline {6.2.1}Análise SWOT}{28}{subsubsection.71}%
+\contentsline {subsubsection}{\numberline {6.2.2}Estratégia selecionada}{29}{subsubsection.76}%
+\contentsline {subsubsection}{\numberline {6.2.3}Infraestrutura necessária}{30}{subsubsection.82}%
+\contentsline {subsubsection}{\numberline {6.2.4}Metodologia de trabalho}{30}{subsubsection.84}%
+\contentsline {subsection}{\numberline {6.3}Dimensionamento e Perfil da Equipe para a Implantação da Melhoria}{32}{subsection.91}%
+\contentsline {subsection}{\numberline {6.4}Custos Associados à Implantação da Melhoria}{33}{subsection.93}%
+\contentsline {subsection}{\numberline {6.5}Cronograma Macro}{34}{subsection.95}%
+\contentsline {subsection}{\numberline {6.6}Plano de medições e análise}{37}{subsection.98}%
+\contentsline {subsubsection}{\numberline {6.6.1}Indicador: Tempo médio de preenchimento de formulários}{37}{subsubsection.99}%
+\contentsline {subsubsection}{\numberline {6.6.2}Indicador: Taxa de preenchimento correto na primeira tentativa}{37}{subsubsection.100}%
+\contentsline {subsubsection}{\numberline {6.6.3}Indicador: Consultas básicas direcionadas à equipe técnica}{37}{subsubsection.101}%
+\contentsline {subsubsection}{\numberline {6.6.4}Indicador: Dúvidas atendidas sem intervenção humana}{38}{subsubsection.102}%
+\contentsline {subsubsection}{\numberline {6.6.5}Indicador: Satisfação do usuário}{38}{subsubsection.103}%
+\contentsline {subsubsection}{\numberline {6.6.6}Indicador: Tempo de resposta para solicitações}{38}{subsubsection.104}%
+\contentsline {subsubsection}{\numberline {6.6.7}Indicador: Volume de documentação digital vs. papel}{39}{subsubsection.105}%
+\contentsline {section}{\numberline {7}Indicadores GPN}{40}{section.106}%
+\contentsline {section}{\numberline {8}Conclusões e Considerações Finais}{41}{section.108}%

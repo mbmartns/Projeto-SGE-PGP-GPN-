@@ -396,6 +396,11 @@ INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-fin
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT ./images/TO-BE.jpg
+INPUT ./images/TO-BE.jpg
+INPUT ./images/TO-BE.jpg
+INPUT ./images/TO-BE.jpg
+INPUT ./images/TO-BE.jpg
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
 INPUT /nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/tfm/public/amsfonts/symbols/msam5.tfm

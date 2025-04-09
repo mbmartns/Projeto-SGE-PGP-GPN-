@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1744165961.94315 "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" "main.pdf" "main" 1744165963.77137 0
-  "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" 1744165870.88437 84136 1b085fe590cdca2175a0cb5c9edc285e ""
+["pdflatex"] 1744167490.10058 "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" "main.pdf" "main" 1744167491.8485 0
+  "/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/Implantação/main.tex" 1744167487.73192 81572 b97ace5b4c1ceb1bdb90d27ac7138c96 ""
   "/nix/store/ch7h3j2zn6c044i3i3qpcz5fq6y2q9xs-texlive-combined-full-2024-final/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1 5467273 062be193843bcc34c52a107838b77640 ""
   "/nix/store/ch7h3j2zn6c044i3i3qpcz5fq6y2q9xs-texlive-combined-full-2024-final/share/texmf-var/web2c/pdftex/pdflatex.fmt" 1 3353374 c17c5c6897c3be17d688b288ffacff1d ""
   "/nix/store/ch7h3j2zn6c044i3i3qpcz5fq6y2q9xs-texlive-combined-full-2024-final/share/texmf-var/web2c/texmf.cnf" 1 44167 0ee7d8a4c6ce054f14eae62ff1adf1a5 ""
@@ -234,11 +234,12 @@
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/xcolor/xcolor.sty" 1 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/xkeyval/xkeyval.sty" 1 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
   "images/AS-IS.jpg" 1743875510.97764 2845677 f95eb109fdf6d9c958edc6ccafd4cbfc ""
+  "images/TO-BE.jpg" 1743875515.39884 4110757 b1504e4160128b71af96d867a398c103 ""
   "images/UFPE.jpg" 1743874042.9783 87640 45cedac9f9b5a18f8d30afb9b5d551c5 ""
-  "main.aux" 1744165963.52826 12162 3e502c5d38449b6a1bdd0f8814ff4a44 "pdflatex"
-  "main.out" 1744165963.53026 13530 dc822158c043f7c419029d271233d88d "pdflatex"
-  "main.tex" 1744165870.88437 84136 1b085fe590cdca2175a0cb5c9edc285e ""
-  "main.toc" 1744165963.53026 5384 fbe3b43ee8aa1e5c458cd91246df8e61 "pdflatex"
+  "main.aux" 1744167491.70792 12342 67d0b3d98e10278a754eff03acf57c9e "pdflatex"
+  "main.out" 1744167491.70892 13519 b86ea174602681022c447bbc5ceadd74 "pdflatex"
+  "main.tex" 1744167487.73192 81572 b97ace5b4c1ceb1bdb90d27ac7138c96 ""
+  "main.toc" 1744167491.71074 5379 07ef476022c702595742df067f5a228e "pdflatex"
   (generated)
   "main.aux"
   "main.log"

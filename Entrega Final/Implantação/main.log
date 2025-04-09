@@ -1,15 +1,18 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/nixos.org) (preloaded format=pdflatex 1980.1.1)  8 APR 2025 23:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/nixos.org) (preloaded format=pdflatex 1980.1.1)  8 APR 2025 23:58
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/ImplantaÃ§Ã£o/main.tex"
-(/home/notroot/Documents/Code/Uni/Projeto-SGE-PGP-GPN-/Entrega Final/ImplantaÃ§Ã£o/main.tex
+**main.tex
+(./main.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
-(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/base/article.cls
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/base/article.cls
 Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
-(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/base/size12.clo
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/base/size12.clo
 File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count196
@@ -23,37 +26,59 @@ File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen141
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/base/inputenc.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks17
 \inpenc@posthook=\toks18
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/base/fontenc.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/graphics/graphicx.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/graphics/keyval.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/graphics/graphics.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/graphics/graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/graphics/trig.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/graphics/trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/graphics-cfg/graphics.cfg
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/graphics-def/pdftex.def
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen142
 \Gin@req@width=\dimen143
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/xcolor/xcolor.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/graphics-cfg/color.cfg
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/graphics/mathcolor.ltx)
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -63,9 +88,13 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/colortbl/colortbl.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/colortbl/colortbl.sty
 Package: colortbl 2024/07/06 v1.0i Color table columns (DPC)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/tools/array.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/tools/array.sty
 Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \col@sep=\dimen144
 \ar@mcellbox=\box52
@@ -78,64 +107,105 @@ Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
 \everycr=\toks21
 \minrowclearance=\skip53
 \rownum=\count270
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/graphics/dvipsnam.def
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/hyperref/hyperref.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/iftex/iftex.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/kvsetkeys/kvsetkeys.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/kvdefinekeys/kvdefinekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pdfescape/pdfescape.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pdfescape/pdfescape.sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/ltxcmds/ltxcmds.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/infwarerr/infwarerr.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/hycolor/hycolor.sty
+))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/hycolor/hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/hyperref/nameref.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/hyperref/nameref.sty
 Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/refcount/refcount.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/gettitlestring/gettitlestring.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/kvoptions/kvoptions.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
 \c@section@level=\count271
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/etoolbox/etoolbox.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count272
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/stringenc/stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
 )
 \@linkdim=\dimen146
 \Hy@linkcounter=\count273
 \Hy@pagecounter=\count274
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/hyperref/pd1enc.def
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/intcalc/intcalc.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count275
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/hyperref/puenc.def
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/hyperref/puenc.def
 File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Option `hypertexnames' set `false' on input line 4040.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4040.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 4040
+.
 Package hyperref Info: Hyper figures OFF on input line 4157.
 Package hyperref Info: Link nesting OFF on input line 4162.
 Package hyperref Info: Hyper index ON on input line 4165.
@@ -144,16 +214,23 @@ Package hyperref Info: Backreferencing OFF on input line 4177.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4424.
 \c@Hy@tempcnt=\count276
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/url/url.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 4763.
 \XeTeXLinkMargin=\dimen147
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/bitset/bitset.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/bigintcalc/bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
 \Fld@menulength=\count277
 \Field@Width=\dimen148
@@ -165,7 +242,9 @@ Package hyperref Info: backreferencing OFF on input line 6057.
 Package hyperref Info: Link coloring OFF on input line 6062.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/base/atbegshi-ltx.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
@@ -174,23 +253,35 @@ package with kernel methods
 \c@Hfootnote=\count280
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/hyperref/hpdftex.def
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/base/atveryend-ltx.sty
-Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
 with kernel methods
 )
 \Fld@listcount=\count281
 \c@bookmark@seq@number=\count282
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/uniquecounter/uniquecounter.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/uniquecounter/uniquecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
 )
 \Hy@SectionHShift=\skip54
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/enumitem/enumitem.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip55
 \enit@outerparindent=\dimen150
@@ -198,7 +289,9 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box54
 \enit@count@id=\count283
 \enitdp@description=\count284
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/titlesec/titlesec.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box55
 \beforetitleunit=\skip56
@@ -209,9 +302,13 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen153
 \titlewidthlast=\dimen154
 \titlewidthfirst=\dimen155
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/geometry/geometry.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/iftex/ifvtex.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count285
@@ -226,7 +323,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen162
 \Gm@layoutvoffset=\dimen163
 \Gm@dimlist=\toks24
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/booktabs/booktabs.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen164
 \lightrulewidth=\dimen165
@@ -245,28 +344,54 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@thisruleclass=\count290
 \@lastruleclass=\count291
 \@thisrulewidth=\dimen176
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/multirow/multirow.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/multirow/multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip58
 \multirow@cntb=\count292
 \multirow@dima=\skip59
 \bigstrutjot=\dimen177
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/pgf/frontendlayer/tikz.sty (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/pgf/basiclayer/pgf.sty (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/pgf/utilities/pgfrcs.sty (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/utilities/pgfutil-common.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/pgf/frontendlayer/tikz.sty
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/pgf/basiclayer/pgf.sty
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/pgf/utilities/pgfrcs.sty
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks25
 \pgfutil@tempdima=\dimen178
 \pgfutil@tempdimb=\dimen179
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/utilities/pgfutil-latex.def
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box56
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/utilities/pgfrcs.code.tex (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/pgf.revision.tex)
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/pgf/basiclayer/pgfcore.sty (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/pgf/systemlayer/pgfsys.sty (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/utilities/pgfkeys.code.tex
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks26
 \pgfkeys@temptoks=\toks27
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks28
 ))
 \pgf@x=\dimen180
@@ -289,33 +414,76 @@ Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \t@pgf@tokb=\toks30
 \t@pgf@tokc=\toks31
 \pgf@sys@id@count=\count297
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/systemlayer/pgf.cfg
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
-))) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+)))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count298
 \pgfsyssoftpath@bigbuffer@items=\count299
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/math/pgfmath.code.tex (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/math/pgfmathutil.code.tex) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/math/pgfmathparser.code.tex
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/math/pgfmath.code.tex
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen190
 \pgfmath@count=\count300
 \pgfmath@box=\box57
 \pgfmath@toks=\toks32
 \pgfmath@stack@operand=\toks33
 \pgfmath@stack@operation=\toks34
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/math/pgfmathcalc.code.tex)
-(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/math/pgfmathfloat.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count301
-)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/math/pgfint.code.tex) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/math/pgfint.code.tex)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen191
 \pgf@picmaxx=\dimen192
@@ -331,75 +499,131 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@yy=\dimen258
 \pgf@zx=\dimen259
 \pgf@zy=\dimen260
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen261
 \pgf@path@lasty=\dimen262
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen263
 \pgf@shorten@start@additional=\dimen264
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
 \pgf@picture@serial@count=\count302
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen265
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen266
 \pgf@pt@y=\dimen267
 \pgf@pt@temp=\dimen268
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen269
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen270
 \pgf@sys@shading@range@num=\count303
 \pgf@shadingcount=\count304
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box61
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+)))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box62
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen271
 \pgf@nodesepend=\dimen272
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
-)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/pgf/utilities/pgffor.sty (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/pgf/utilities/pgfkeys.sty (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/pgf/math/pgfmath.sty (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/math/pgfmath.code.tex)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/utilities/pgffor.code.tex
+))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/pgf/utilities/pgffor.sty
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/pgf/utilities/pgfkeys.sty
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/pgf/math/pgfmath.sty
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/math/pgfmath.code.tex))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen273
 \pgffor@skip=\dimen274
 \pgffor@stack=\toks35
 \pgffor@toks=\toks36
-)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count305
 \pgfplotmarksize=\dimen275
@@ -420,18 +644,27 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikznumberofchildren=\count307
 \tikznumberofcurrentchild=\count308
 \tikz@fig@count=\count309
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfmatrixcurrentrow=\count310
 \pgfmatrixcurrentcolumn=\count311
 \pgf@matrix@numberofcolumns=\count312
 )
 \tikz@expandcount=\count313
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.tex
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopaths.code.t
+ex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
-))) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/amsfonts/amssymb.sty
+)))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/amsfonts/amsfonts.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks37
 \symAMSa=\mathgroup4
@@ -439,9 +672,13 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/graphics/rotating.sty
+))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/base/ifthen.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/base/ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
 \c@r@tfl@t=\count314
@@ -449,21 +686,36 @@ Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 \rotFPbot=\skip61
 \rot@float@box=\box67
 \rot@mess@toks=\toks38
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/adjustbox/adjustbox.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/adjustbox/adjustbox.sty
 Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/xkeyval/xkeyval.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/xkeyval/xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/xkeyval/xkeyval.tex (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/xkeyval/xkvutils.tex
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/xkeyval/xkeyval.tex
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/xkeyval/xkvutils.tex
 \XKV@toks=\toks39
 \XKV@tempa@toks=\toks40
 )
 \XKV@depth=\count315
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/adjustbox/adjcalc.sty
-Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/adjustbox/trimclip.sty
+))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/adjustbox/trimclip.sty
 Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/collectbox/collectbox.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/collectbox/collectbox.sty
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \collectedbox=\box68
 )
@@ -472,7 +724,9 @@ Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
 \tc@urx=\dimen286
 \tc@ury=\dimen287
 Package trimclip Info: Using driver 'tc-pdftex.def'.
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/adjustbox/tc-pdftex.def
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/adjustbox/tc-pdftex.def
 File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen288
@@ -483,24 +737,37 @@ File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
 \adjbox@pheight=\dimen293
 \adjbox@pdepth=\dimen294
 \adjbox@ptotalheight=\dimen295
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/ifoddpage/ifoddpage.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
 \c@checkoddpage=\count316
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/varwidth/varwidth.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/varwidth/varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box69
 \sift@deathcycles=\count317
 \@vwid@loff=\dimen296
 \@vwid@roff=\dimen297
-)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/pdflscape/pdflscape.sty
+))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/pdflscape/pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/pdflscape/pdflscape-nometadata.sty
-Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/graphics/lscape.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/graphics/lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/tools/longtable.sty
+))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/tools/longtable.sty
 Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \LTleft=\skip62
 \LTright=\skip63
@@ -518,23 +785,33 @@ Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
 \c@LT@tables=\count321
 \c@LT@chunks=\count322
 \LT@p@ftn=\toks41
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/float/float.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count323
 \float@exts=\toks42
 \float@box=\box75
 \@float@everytoks=\toks43
 \@floatcapt=\box76
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/tcolorbox/tcolorbox.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/tcolorbox/tcolorbox.sty
 Package: tcolorbox 2024/10/22 version 6.4.1 text color boxes
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/tools/verbatim.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/tools/verbatim.sty
 Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks44
 \verbatim@line=\toks45
 \verbatim@in@stream=\read3
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/environ/environ.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/environ/environ.sty
 Package: environ 2014/05/04 v0.3 A new way to define environments
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/trimspaces/trimspaces.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
 \@envbody=\toks46
@@ -552,9 +829,13 @@ Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 \tcb@temp=\box83
 \tcb@temp=\box84
 \tcb@temp=\box85
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/caption/caption.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/caption/caption3.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen300
 \captionmargin=\dimen301
@@ -571,14 +852,21 @@ Package caption Info: Standard document class detected.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/caption/ltcaption.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: rotating package is loaded.
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/setspace/setspace.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/setspace/setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/fancyhdr/fancyhdr.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
 \f@nch@headwidth=\skip66
 \f@nch@offset@elh=\skip67
 \f@nch@offset@erh=\skip68
@@ -594,38 +882,81 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip78
 \f@nch@widthR=\skip79
 \@temptokenb=\toks47
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/tcolorbox/tcbskins.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '6.4.1'
-(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/tikzfill/tikzfill.image.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/tikzfill/tikzfill.image.sty
 Package: tikzfill.image 2023/08/08 v1.0.1 Image filling library for TikZ
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/tikzfill/tikzfill-common.sty
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/tikzfill/tikzfill-common.sty
 Package: tikzfill-common 2023/08/08 v1.0.1 Auxiliary code for tikzfill
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/tikzfill/tikzlibraryfill.image.code.tex
 File: tikzlibraryfill.image.code.tex 2023/08/08 v1.0.1 Image filling library
 \l__tikzfill_img_box=\box86
-)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
+))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
 Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.4.1'
-)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.tex
+))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.code.te
+x
 File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometric.code.tex
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.geometr
+ic.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.code.tex
+))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.misc.co
+de.tex
 File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.misc.code.tex
 File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols.code.tex
+))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.symbols
+.code.tex
 File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code.tex
 File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.code.tex
+))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.arrows.
+code.tex
 File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.tex
 File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
-)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callouts.code.tex (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipart.code.tex
+))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.callout
+s.code.tex
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.callouts.code.tex))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes.multipa
+rt.code.tex
 File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodepartlowerbox=\box87
 \pgfnodeparttwobox=\box88
@@ -647,20 +978,35 @@ File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodepartsevenbox=\box104
 \pgfnodepartsixbox=\box105
 \pgfnodepartfivebox=\box106
-))) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
+)))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.te
+x
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen308
-)) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.code.tex
+))
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarypositioning.co
+de.tex
 File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfit.code.tex
 File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.co
+de.tex
 File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@layerbox@background=\box107
 \pgf@layerboxsaved@background=\box108
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/tools/tabularx.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/tools/tabularx.sty
 Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@col@width=\dimen309
 \TX@old@table=\dimen310
@@ -671,7 +1017,9 @@ Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 \TX@ftn=\toks48
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 89.
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/l3backend/l3backend-pdftex.def
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count330
 \l__pdf_internal_box=\box109
@@ -696,7 +1044,9 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
 LaTeX Font Info:    ... okay on input line 91.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
 LaTeX Font Info:    ... okay on input line 91.
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/context/base/mkii/supp-pdf.mkii
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count331
 \scratchdimen=\dimen314
@@ -709,11 +1059,17 @@ LaTeX Font Info:    ... okay on input line 91.
 \MPnumerator=\count335
 \makeMPintoPDFobject=\count336
 \everyMPtoPDFconversion=\toks50
-) (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+)
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
 Package hyperref Info: Link coloring ON on input line 91.
  (./main.out) (./main.out)
@@ -762,18 +1118,27 @@ File: images/UFPE.jpg Graphic file (type jpg)
 <use images/UFPE.jpg>
 Package pdftex.def Info: images/UFPE.jpg  used on input line 98.
 (pdftex.def)             Requested size: 113.81102pt x 116.18997pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 107.
-(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/amsfonts/umsa.fd
+LaTeX Font Info:    Trying to load font information for U+msa on input line 107
+.
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 107.
- (/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/tex/latex/amsfonts/umsb.fd
+LaTeX Font Info:    Trying to load font information for U+msb on input line 107
+.
+
+(/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 [1
 
-{/nix/store/ch7h3j2zn6c044i3i3qpcz5fq6y2q9xs-texlive-combined-full-2024-final/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./images/UFPE.jpg>]
+{/nix/store/ch7h3j2zn6c044i3i3qpcz5fq6y2q9xs-texlive-combined-full-2024-final/s
+hare/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/nix/store/lavaqw85ixs41sv6h
+v8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/enc/dvips/cm-s
+uper/cm-super-t1.enc} <./images/UFPE.jpg>]
 
 [1] (./main.toc
 
@@ -809,7 +1174,8 @@ Underfull \hbox (badness 4660) in paragraph at lines 194--194
 
 [4
 
-{/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+{/nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
 Underfull \hbox (badness 10000) in paragraph at lines 226--226
 []|\T1/cmr/bx/n/12 Equipe téc-nica
  []
@@ -970,1161 +1336,1169 @@ Underfull \hbox (badness 3525) in paragraph at lines 286--286
 [8]
 
 [9]
-
-[10]
-<images/AS-IS.jpg, id=346, 4065.1875pt x 903.375pt>
+<images/AS-IS.jpg, id=338, 4065.1875pt x 903.375pt>
 File: images/AS-IS.jpg Graphic file (type jpg)
 <use images/AS-IS.jpg>
-Package pdftex.def Info: images/AS-IS.jpg  used on input line 379.
+Package pdftex.def Info: images/AS-IS.jpg  used on input line 329.
 (pdftex.def)             Requested size: 507.83705pt x 112.85268pt.
 
 
-[11 <./images/AS-IS.jpg>]
+[10 <./images/AS-IS.jpg>]
 
-[12
+[11
 
 
 ]
 
-[13]
+[12]
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+[13
+
+]
+<images/TO-BE.jpg, id=361, 4065.1875pt x 1129.3392pt>
+File: images/TO-BE.jpg Graphic file (type jpg)
+<use images/TO-BE.jpg>
+Package pdftex.def Info: images/TO-BE.jpg  used on input line 411.
+(pdftex.def)             Requested size: 507.83705pt x 141.08089pt.
+
+
+[14 <./images/TO-BE.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 []|\T1/cmr/m/n/12 Processos man-u-ais,
  []
 
 
-Underfull \hbox (badness 2384) in paragraph at lines 506--506
+Underfull \hbox (badness 2384) in paragraph at lines 434--434
 \T1/cmr/m/n/12 frag-men-ta-dos e com
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 \T1/cmr/m/n/12 doc-u-men-tação lim-i-
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 506--506
+Underfull \hbox (badness 2229) in paragraph at lines 434--434
 \T1/cmr/m/n/12 de co-mu-ni-cação não
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 []|\T1/cmr/m/n/12 Ausência de au-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 \T1/cmr/m/n/12 ção nos pro-ces-sos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 \T1/cmr/m/n/12 prin-ci-pais de se-gu-
  []
 
 
-Underfull \hbox (badness 5908) in paragraph at lines 506--506
+Underfull \hbox (badness 5908) in paragraph at lines 434--434
 \T1/cmr/m/n/12 tradi-cional com co-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 \T1/cmr/m/n/12 mu-ni-cação ver-ti-cal.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 \T1/cmr/m/n/12 Equipe téc-nica re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 \T1/cmr/m/n/12 duzida com alta
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 []|\T1/cmr/m/n/12 Estrutura mais
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 \T1/cmr/m/n/12 téc-nica fo-cada em
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 \T1/cmr/m/n/12 ativi-dades de alto
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 []|\T1/cmr/m/n/12 Necessidade de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 \T1/cmr/m/n/12 re-or-ga-ni-za-ção da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 \T1/cmr/m/n/12 e re-spon-s-abil-i-dades
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 []|\T1/cmr/m/n/12 Serviços presta-dos
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 506--506
+Underfull \hbox (badness 4229) in paragraph at lines 434--434
 \T1/cmr/m/n/12 de forma reativa e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 506--506
+Underfull \hbox (badness 10000) in paragraph at lines 434--434
 \T1/cmr/m/n/12 com doc-u-men-tação
  []
 
 
-Underfull \hbox (badness 1184) in paragraph at lines 506--506
+Underfull \hbox (badness 1184) in paragraph at lines 434--434
 \T1/cmr/m/n/12 forma proa-t-iva, com
  []
 
 
-Underfull \hbox (badness 2762) in paragraph at lines 506--506
+Underfull \hbox (badness 2762) in paragraph at lines 434--434
 []|\T1/cmr/m/n/12 Falta de ca-paci-dade
  []
 
 
-Underfull \hbox (badness 6625) in paragraph at lines 506--506
+Underfull \hbox (badness 6625) in paragraph at lines 434--434
 \T1/cmr/m/n/12 proa-t-ivos e pre-ven-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/bx/n/8 Detalhamento
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 do ES-TADO
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 AT-UAL dos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 pro-ced-i-men-tos
  []
 
 
-Underfull \hbox (badness 4084) in paragraph at lines 529--529
+Underfull \hbox (badness 4084) in paragraph at lines 457--457
 \T1/cmr/m/n/8 balho no SIASS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 en-volve aber-
  []
 
 
-Underfull \hbox (badness 6493) in paragraph at lines 529--529
+Underfull \hbox (badness 6493) in paragraph at lines 457--457
 \T1/cmr/m/n/8 tura man-ual de
  []
 
 
-Underfull \hbox (badness 6173) in paragraph at lines 529--529
+Underfull \hbox (badness 6173) in paragraph at lines 457--457
 \T1/cmr/m/n/8 pro-ces-sos, co-leta
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 de in-for-mações
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 in-for-mal-mente,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 doc-u-men-tação
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 A equipe é
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 re-duzida, a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 doc-u-men-tação
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 é de-scen-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 tral-izada,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 au-men-tando
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 o tempo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Equipe de Se-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 gu-rança do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 Tra-balho do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 en-volvi-dos no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Ambiente
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 de tra-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 balho do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 SIASS,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 in-cluindo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 lab-o-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 ratórios
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 e se-tores
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 ad-min-is-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Durante
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 a aber-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 tura de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 pro-ces-sos
  []
 
 
-Underfull \hbox (badness 3895) in paragraph at lines 529--529
+Underfull \hbox (badness 3895) in paragraph at lines 457--457
 \T1/cmr/m/n/8 e a re-al-
  []
 
 
-Underfull \hbox (badness 7012) in paragraph at lines 529--529
+Underfull \hbox (badness 7012) in paragraph at lines 457--457
 \T1/cmr/m/n/8 iza-ção de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Abertura de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 pro-ces-sos no
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 SEI, en-tre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 vis-tas com
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 es-pe-cial-is-tas,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 visita téc-nica
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 e elab-o-ração
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 2. Iden-ti-fi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 ES-TADO, con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 siderando os
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 pro-ced-i-men-tos
  []
 
 
-Underfull \hbox (badness 4967) in paragraph at lines 529--529
+Underfull \hbox (badness 4967) in paragraph at lines 457--457
 \T1/cmr/m/n/8 de tra-balho já
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Automação in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 teligente do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 pro-cesso de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 Se-gu-rança do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 Tra-balho, com
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 preenchi-mento
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 guiado e in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 te-gração com
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 padroniza-ção
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 das in-for-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 mações e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 mel-ho-ria na
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 efi-ciên-cia do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Equipe de Se-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 gu-rança do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 Tra-balho, de-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 sen-volve-dores
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 do sis-tema e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Sistema
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 dig-i-tal
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 im-ple-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 men-tado
  []
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 529--529
+Underfull \hbox (badness 3078) in paragraph at lines 457--457
 \T1/cmr/m/n/8 no SIASS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 para
  []
 
 
-Underfull \hbox (badness 5302) in paragraph at lines 529--529
+Underfull \hbox (badness 5302) in paragraph at lines 457--457
 \T1/cmr/m/n/8 gestão de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Durante
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 a im-ple-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 men-tação
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 do novo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 sis-tema
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Uso de tec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 nolo-gia de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 preenchi-mento
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 as-sis-tido e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 nor-mas téc-ni-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Médio ^^V
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 tação, mas
  []
 
 
-Underfull \hbox (badness 4254) in paragraph at lines 529--529
+Underfull \hbox (badness 4254) in paragraph at lines 457--457
 \T1/cmr/m/n/8 econo-mia no
  []
 
 
-Underfull \hbox (badness 7777) in paragraph at lines 529--529
+Underfull \hbox (badness 7777) in paragraph at lines 457--457
 \T1/cmr/m/n/8 das LA-CU-NAS
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 ou prob-le-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 mas/falhas do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Falta de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 padroniza-ção
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 na co-leta de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 in-for-mações,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 re-tra-balho na
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 doc-u-men-tação e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 de-pendên-cia de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 en-tre-vis-tas pres-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 são co-le-tadas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 de maneira
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 in-for-mal, di-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 fi-cul-tando o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 pro-cesso e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Profissionais do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 SIASS, equipe
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 ad-min-is-tra-tiva,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 téc-ni-cos de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 se-gu-rança do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Atividades
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 pres-en-ci-
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 529--529
+Underfull \hbox (badness 2707) in paragraph at lines 457--457
 \T1/cmr/m/n/8 ais, como
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 en-tre-vis-tas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 e in-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 ativi-dades
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 ad-min-is-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 No mo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 mento
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 de co-leta
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 de in-for-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 mações e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 doc-u-men-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Documentação
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 man-ual, falta
  []
 
 
-Underfull \hbox (badness 1360) in paragraph at lines 529--529
+Underfull \hbox (badness 1360) in paragraph at lines 457--457
 \T1/cmr/m/n/8 de sis-tema de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 preenchi-mento
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 as-sis-tido e
  []
 
 
-Underfull \hbox (badness 7221) in paragraph at lines 529--529
+Underfull \hbox (badness 7221) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Alto ^^V el-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 e-vado custo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 con-sistên-cias
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 MEL-HO-RIAS
  []
 
 
-Underfull \hbox (badness 5231) in paragraph at lines 529--529
+Underfull \hbox (badness 5231) in paragraph at lines 457--457
 \T1/cmr/m/n/8 para fechar as
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Processo au-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 tomático para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 preenchi-mento
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 de for-mulários,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 in-te-gração com
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 téc-ni-cas e au-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Facilitar o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 preenchi-mento
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 garan-tir pre-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 cisão nas
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 in-for-mações
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 e re-duzir o
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 tempo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Gestores do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 SIASS, equipe
  []
 
 
-Underfull \hbox (badness 1117) in paragraph at lines 529--529
+Underfull \hbox (badness 1117) in paragraph at lines 457--457
 \T1/cmr/m/n/8 téc-nica de TI e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 profis-sion-ais da
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 Se-gu-rança do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Ambiente
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 dig-i-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 tal, com
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 au-tom-a-ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 za-ção do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 fluxo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 tra-balho
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 e doc-u-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 men-tação
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Após a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 im-ple-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 men-tação
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 do novo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 sis-tema
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 au-tom-a-ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Processo au-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 tom-a-ti-zado
  []
 
 
-Underfull \hbox (badness 1895) in paragraph at lines 529--529
+Underfull \hbox (badness 1895) in paragraph at lines 457--457
 \T1/cmr/m/n/8 para preenchi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 []|\T1/cmr/m/n/8 Baixo ^^V
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 otimiza-ção
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 do tempo
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 e au-mento
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 da pro-du-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 tivi-dade
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 529--529
+Underfull \hbox (badness 10000) in paragraph at lines 457--457
 \T1/cmr/m/n/8 re-duzindo
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 550--550
+Underfull \hbox (badness 1496) in paragraph at lines 478--478
 \T1/cmr/m/n/12 tema es-pecí-fico para
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 550--550
+Underfull \hbox (badness 2781) in paragraph at lines 478--478
 \T1/cmr/m/n/12 gestão de se-gu-rança
  []
 
 
-Underfull \hbox (badness 2781) in paragraph at lines 550--550
+Underfull \hbox (badness 2781) in paragraph at lines 478--478
 \T1/cmr/m/n/12 gestão de se-gu-rança
  []
 
 
-Underfull \hbox (badness 4779) in paragraph at lines 550--550
+Underfull \hbox (badness 4779) in paragraph at lines 478--478
 \T1/cmr/m/n/12 es-pecí-fica para pro-
  []
 
 
-Underfull \hbox (badness 4279) in paragraph at lines 550--550
+Underfull \hbox (badness 4279) in paragraph at lines 478--478
 \T1/cmr/m/n/12 ces-sos de se-gu-rança
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 550--550
+Underfull \hbox (badness 1248) in paragraph at lines 478--478
 \T1/cmr/m/n/12 do tra-balho e in-ter-
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 550--550
+Underfull \hbox (badness 1960) in paragraph at lines 478--478
 \T1/cmr/m/n/12 ti-zada. Trans-fer-ên-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--550
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
 []|\T1/cmr/m/n/12 Sistemas in-te-gra-dos
  []
 
 
-Underfull \hbox (badness 1527) in paragraph at lines 550--550
+Underfull \hbox (badness 1527) in paragraph at lines 478--478
 \T1/cmr/m/n/12 com fluxo au-tom-a-ti-
  []
 
 
-Underfull \hbox (badness 2343) in paragraph at lines 550--550
+Underfull \hbox (badness 2343) in paragraph at lines 478--478
 \T1/cmr/m/n/12 in-te-gração en-tre sis-
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 550--550
+Underfull \hbox (badness 1377) in paragraph at lines 478--478
 []|\T1/cmr/m/n/12 Interfaces com-plexas,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--550
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
 \T1/cmr/m/n/12 fo-cadas em es-pe-
  []
 
 
-Underfull \hbox (badness 5475) in paragraph at lines 550--550
+Underfull \hbox (badness 5475) in paragraph at lines 478--478
 \T1/cmr/m/n/12 cial-is-tas. Uso de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--550
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
 \T1/cmr/m/n/12 for-mulários em pa-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--550
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
 \T1/cmr/m/n/12 pel e dig-i-tais não
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--550
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
 []|\T1/cmr/m/n/12 Interface con-ver-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--550
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
 \T1/cmr/m/n/12 sa-cional in-tu-itiva,
  []
 
 
-Underfull \hbox (badness 1558) in paragraph at lines 550--550
+Underfull \hbox (badness 1558) in paragraph at lines 478--478
 \T1/cmr/m/n/12 acessível a to-dos os
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 550--550
+Underfull \hbox (badness 1478) in paragraph at lines 478--478
 \T1/cmr/m/n/12 níveis de usuários e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 550--550
+Underfull \hbox (badness 10000) in paragraph at lines 478--478
 \T1/cmr/m/n/12 adap-ta-tiva ao con-
  []
 
 
-Underfull \hbox (badness 3690) in paragraph at lines 550--550
+Underfull \hbox (badness 3690) in paragraph at lines 478--478
 \T1/cmr/m/n/12 dizado dos sis-temas
  []
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 562--562
+Underfull \hbox (badness 3919) in paragraph at lines 490--490
 \T1/cmr/m/n/12 fi-cação de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 562--562
+Underfull \hbox (badness 10000) in paragraph at lines 490--490
 \T1/cmr/m/n/12 fun-cional-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 562--562
+Underfull \hbox (badness 10000) in paragraph at lines 490--490
 \T1/cmr/m/n/12 i-dades
  []
 
 
-Underfull \hbox (badness 3323) in paragraph at lines 564--564
+Underfull \hbox (badness 3323) in paragraph at lines 492--492
 []|\T1/cmr/m/n/12 2. Fun-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--564
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
 \T1/cmr/m/n/12 cional-i-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--564
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
 \T1/cmr/m/n/12 dades do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 564--564
+Underfull \hbox (badness 10000) in paragraph at lines 492--492
 \T1/cmr/m/n/12 novo sis-
  []
 
 
-Underfull \hbox (badness 3590) in paragraph at lines 573--573
+Underfull \hbox (badness 3590) in paragraph at lines 501--501
 []|\T1/cmr/m/n/12 4. Mel-
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 575--576
+Underfull \hbox (badness 4531) in paragraph at lines 503--504
 []\T1/cmr/m/n/12 Digitalização dos pro-ces-sos e au-tomação no
  []
 
 
-Underfull \hbox (badness 1424) in paragraph at lines 576--577
+Underfull \hbox (badness 1424) in paragraph at lines 504--505
 []\T1/cmr/m/n/12 Criação de um mó-dulo de su-porte à de-cisão
  []
 
@@ -2132,308 +2506,309 @@ Underfull \hbox (badness 1424) in paragraph at lines 576--577
 
 [15
 
+
 ]
 
 [16]
 
 [17]
-
-[18]
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
 []|\T1/cmr/m/n/12 Dados es-tru-tu-ra-dos
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 601--601
+Underfull \hbox (badness 1960) in paragraph at lines 529--529
 \T1/cmr/m/n/12 em banco de da-dos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
 \T1/cmr/m/n/12 rela-cional e não-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
 \T1/cmr/m/n/12 con-hec-i-mento ve-to-
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 601--601
+Underfull \hbox (badness 1960) in paragraph at lines 529--529
 \T1/cmr/m/n/12 tico para gestão do
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 601--601
+Underfull \hbox (badness 1210) in paragraph at lines 529--529
 []|\T1/cmr/bx/n/12 Qualidade de Da-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
 []|\T1/cmr/m/n/12 Inconsistência en-tre
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
 \T1/cmr/m/n/12 doc-u-men-tos, in-for-
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 601--601
+Underfull \hbox (badness 1466) in paragraph at lines 529--529
 \T1/cmr/m/n/12 mações du-pli-cadas e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
 []|\T1/cmr/m/n/12 Dados con-sis-tentes,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
 \T1/cmr/m/n/12 al-iza-ção au-tomática.
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 601--601
+Underfull \hbox (badness 3460) in paragraph at lines 529--529
 \T1/cmr/m/n/12 e-mail. Difí-cil re-
  []
 
 
-Underfull \hbox (badness 5908) in paragraph at lines 601--601
+Underfull \hbox (badness 5908) in paragraph at lines 529--529
 \T1/cmr/m/n/12 cu-per-ação de in-for-
  []
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 601--601
+Underfull \hbox (badness 1789) in paragraph at lines 529--529
 []|\T1/cmr/m/n/12 Acesso unifi-cado via
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
 \T1/cmr/m/n/12 in-ter-face in-tu-itiva.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
 \T1/cmr/m/n/12 Busca semân-tica e
  []
 
 
-Underfull \hbox (badness 2600) in paragraph at lines 601--601
+Underfull \hbox (badness 2600) in paragraph at lines 529--529
 []|\T1/cmr/m/n/12 Ausência de mecan-
  []
 
 
-Underfull \hbox (badness 3019) in paragraph at lines 601--601
+Underfull \hbox (badness 3019) in paragraph at lines 529--529
 \T1/cmr/m/n/12 is-mos de in-dex-ação,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
 \T1/cmr/m/n/12 busca avançada
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 601--601
+Underfull \hbox (badness 10000) in paragraph at lines 529--529
 \T1/cmr/m/n/12 e disponi-bi-liza-ção
  []
 
 
-Underfull \hbox (badness 3635) in paragraph at lines 601--601
+Underfull \hbox (badness 3635) in paragraph at lines 529--529
 \T1/cmr/m/n/12 con-tex-tual de in-for-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 613--613
+Underfull \hbox (badness 10000) in paragraph at lines 541--541
 \T1/cmr/m/n/12 de da-dos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 619--619
+Underfull \hbox (badness 10000) in paragraph at lines 547--547
 \T1/cmr/m/n/12 de da-dos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 619--619
+Underfull \hbox (badness 10000) in paragraph at lines 547--547
 \T1/cmr/m/n/12 no novo
  []
 
 
-Underfull \hbox (badness 1259) in paragraph at lines 625--625
+Underfull \hbox (badness 1259) in paragraph at lines 553--553
 []|\T1/cmr/m/n/12 3. La-cu-
  []
 
 
-Underfull \hbox (badness 3590) in paragraph at lines 627--627
+Underfull \hbox (badness 3590) in paragraph at lines 555--555
 []|\T1/cmr/m/n/12 4. Mel-
  []
 
 
 
-[19
+[18
 
 ]
 
-[20]
-Underfull \hbox (badness 10000) in paragraph at lines 650--650
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 []|\T1/cmr/m/n/12 Infraestrutura lo-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--650
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \T1/cmr/m/n/12 cal com sis-temas
  []
 
 
-Underfull \hbox (badness 4647) in paragraph at lines 650--650
+Underfull \hbox (badness 4647) in paragraph at lines 578--578
 \T1/cmr/m/n/12 em servi-dores in-sti-
  []
 
 
-Underfull \hbox (badness 8189) in paragraph at lines 650--650
+Underfull \hbox (badness 8189) in paragraph at lines 578--578
 \T1/cmr/m/n/12 tu-cionais. Acesso
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--650
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \T1/cmr/m/n/12 prin-ci-pal-mente em
  []
 
 
-Underfull \hbox (badness 5288) in paragraph at lines 650--650
+Underfull \hbox (badness 5288) in paragraph at lines 578--578
 []|\T1/cmr/m/n/12 Falta de in-fraestru-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--650
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 []|\T1/cmr/m/n/12 Controle de acesso
  []
 
 
-Underfull \hbox (badness 3240) in paragraph at lines 650--650
+Underfull \hbox (badness 3240) in paragraph at lines 578--578
 \T1/cmr/m/n/12 básico. Sem crip-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--650
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \T1/cmr/m/n/12 pro-to-co-los ro-bus-tos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--650
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 []|\T1/cmr/m/n/12 Segurança mul-ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--650
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \T1/cmr/m/n/12 ca-madas com au-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--650
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \T1/cmr/m/n/12 t-en-ti-cação forte,
  []
 
 
-Underfull \hbox (badness 2229) in paragraph at lines 650--650
+Underfull \hbox (badness 2229) in paragraph at lines 578--578
 \T1/cmr/m/n/12 e con-formi-dade com
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--650
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 []|\T1/cmr/m/n/12 Deficiências nos
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--650
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \T1/cmr/m/n/12 mecan-is-mos de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--650
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \T1/cmr/m/n/12 pro-teção de da-dos
  []
 
 
-Underfull \hbox (badness 2922) in paragraph at lines 650--650
+Underfull \hbox (badness 2922) in paragraph at lines 578--578
 \T1/cmr/m/n/12 sen-síveis e con-troles
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--650
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 []|\T1/cmr/bx/n/12 Plataformas Tec-
  []
 
 
-Underfull \hbox (badness 6625) in paragraph at lines 650--650
+Underfull \hbox (badness 6625) in paragraph at lines 578--578
 []|\T1/cmr/m/n/12 Plataforma mod-erna
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 650--650
+Underfull \hbox (badness 10000) in paragraph at lines 578--578
 \T1/cmr/m/n/12 com IA, pro-ces-sa-
  []
 
 
-Underfull \hbox (badness 1852) in paragraph at lines 650--650
+Underfull \hbox (badness 1852) in paragraph at lines 578--578
 \T1/cmr/m/n/12 mento de lin-guagem
  []
 
 
-Underfull \hbox (badness 7944) in paragraph at lines 662--662
+Underfull \hbox (badness 7944) in paragraph at lines 590--590
 []|\T1/cmr/m/n/12 1. Ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 662--662
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
 \T1/cmr/m/n/12 quite-tura
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 662--662
+Underfull \hbox (badness 10000) in paragraph at lines 590--590
 \T1/cmr/m/n/12 tec-nológ-ica
  []
 
 
-Underfull \hbox (badness 1102) in paragraph at lines 662--663
+Underfull \hbox (badness 1102) in paragraph at lines 590--591
 []|\T1/cmr/m/n/12 Atualmente, o sis-tema uti-lizado é o SEI (Sis-tema
  []
 
 
-Underfull \hbox (badness 7944) in paragraph at lines 664--664
+Underfull \hbox (badness 7944) in paragraph at lines 592--592
 []|\T1/cmr/m/n/12 2. Ar-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 664--664
+Underfull \hbox (badness 10000) in paragraph at lines 592--592
 \T1/cmr/m/n/12 quite-tura
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 664--664
+Underfull \hbox (badness 10000) in paragraph at lines 592--592
 \T1/cmr/m/n/12 tec-nológ-ica
  []
 
 
-Underfull \hbox (badness 8094) in paragraph at lines 666--666
+Underfull \hbox (badness 8094) in paragraph at lines 594--594
 []|\T1/cmr/m/n/12 3. La-
  []
 
 
-Underfull \hbox (badness 1960) in paragraph at lines 666--666
+Underfull \hbox (badness 1960) in paragraph at lines 594--594
 \T1/cmr/m/n/12 cu-nas tec-
  []
 
 
-Underfull \hbox (badness 3590) in paragraph at lines 668--668
+Underfull \hbox (badness 3590) in paragraph at lines 596--596
 []|\T1/cmr/m/n/12 4. Mel-
  []
 
 
 
-[21
+[20
 
 ]
+
+[21]
 
 [22]
 
@@ -2443,128 +2818,210 @@ Underfull \hbox (badness 3590) in paragraph at lines 668--668
 
 [25]
 
-[26]
-
-[27
+[26
 
 ]
 
-[28]
+[27]
 
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 1049--1050
 []|\T1/cmr/bx/n/12 Fase
  []
 
 
-Underfull \hbox (badness 5374) in paragraph at lines 1123--1123
+Underfull \hbox (badness 5374) in paragraph at lines 1051--1051
 []|\T1/cmr/m/n/12 Ambiente de De-sen-volvi-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1127--1127
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1055
 \T1/cmr/m/n/12 16 vC-PUs, 32GB
  []
 
 
-Overfull \hbox (15.20604pt too wide) in paragraph at lines 1129--1129
+Overfull \hbox (15.20604pt too wide) in paragraph at lines 1057--1057
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1131--1131
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1059
 []|\T1/cmr/m/n/12 Armazenamento
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1131--1131
+Underfull \hbox (badness 10000) in paragraph at lines 1059--1059
 \T1/cmr/m/n/12 de doc-u-men-tos e
  []
 
 
-Overfull \hbox (37.07289pt too wide) in paragraph at lines 1135--1135
+Overfull \hbox (37.07289pt too wide) in paragraph at lines 1063--1063
 []|[]| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1139--1139
+Underfull \hbox (badness 10000) in paragraph at lines 1067--1067
 []|\T1/cmr/m/n/12 Backup diário com
  []
 
 
-Overfull \hbox (1.01367pt too wide) in paragraph at lines 1143--1143
+Overfull \hbox (1.01367pt too wide) in paragraph at lines 1071--1071
 []|[]| 
  []
 
 
-Underfull \hbox (badness 1735) in paragraph at lines 1143--1143
+Underfull \hbox (badness 1735) in paragraph at lines 1071--1071
 []|\T1/cmr/m/n/12 Ambientes de De-sen-volvi-
  []
 
 
 
+[29]
+
 [30]
 
 [31]
-
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 1229--1229
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
 []|\T1/cmr/m/n/12 Arquiteto de
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 1229--1229
+Underfull \hbox (badness 2556) in paragraph at lines 1157--1157
 []|\T1/cmr/m/n/12 Especialista em
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1229--1229
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
 []|\T1/cmr/m/n/12 Desenvolvedor
  []
 
 
-Underfull \hbox (badness 5077) in paragraph at lines 1229--1229
+Underfull \hbox (badness 5077) in paragraph at lines 1157--1157
 []|\T1/cmr/m/n/12 Desenvolvimento de front-end,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1229--1229
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
 []|\T1/cmr/m/n/12 Engenheiro de
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 1229--1229
+Underfull \hbox (badness 2556) in paragraph at lines 1157--1157
 []|\T1/cmr/m/n/12 Especialista em
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1229--1229
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
 \T1/cmr/m/n/12 se-gu-rança, con-formi-dade com
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1229--1229
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
 []|\T1/cmr/m/n/12 Analista de
  []
 
 
-Underfull \hbox (badness 2556) in paragraph at lines 1229--1229
+Underfull \hbox (badness 2556) in paragraph at lines 1157--1157
 []|\T1/cmr/m/n/12 Especialista em
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1229--1229
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
 \T1/cmr/m/n/12 Se-gu-rança do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1229--1229
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1157
 []|\T1/cmr/m/n/12 Analista de
  []
 
 
-Underfull \hbox (badness 2065) in paragraph at lines 1229--1229
+Underfull \hbox (badness 2065) in paragraph at lines 1157--1157
 \T1/cmr/m/n/12 e-lagem de pro-ces-sos, in-ter-face
+ []
+
+
+
+[32
+
+]
+Overfull \hbox (17.59866pt too wide) in paragraph at lines 1203--1203
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1203--1203
+[]|\T1/cmr/m/n/12 Equipe in-terna
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1203--1203
+\T1/cmr/m/n/12 (ded-i-cação par-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1203--1203
+[]|\T1/cmr/m/n/12 Suporte téc-nico
+ []
+
+
+Overfull \hbox (46.74017pt too wide) in paragraph at lines 1203--1203
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1203--1203
+[]|\T1/cmr/m/n/12 Servidor vir-tual
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1203--1203
+[]|\T1/cmr/m/n/12 API de IA
+ []
+
+
+Overfull \hbox (0.6358pt too wide) in paragraph at lines 1203--1203
+\T1/cmr/m/n/12 (Claude/OpenAI)| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1203--1203
+[]|\T1/cmr/bx/n/12 Subtotal In-
+ []
+
+
+Overfull \hbox (39.8877pt too wide) in paragraph at lines 1203--1203
+[]|[]| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1203--1203
+[]|\T1/cmr/m/n/12 API What-sApp
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1203--1203
+[]|\T1/cmr/bx/n/12 Subtotal Li-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1203--1203
+[]|\T1/cmr/m/n/12 Treinamento de
+ []
+
+
+Underfull \hbox (badness 3439) in paragraph at lines 1203--1203
+[]|\T1/cmr/m/n/12 Documentação e
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1203--1203
+[]|\T1/cmr/m/n/12 Contingência
+ []
+
+
+Underfull \hbox (badness 6641) in paragraph at lines 1203--1203
+[]|\T1/cmr/bx/n/12 Subtotal Out-
  []
 
 
@@ -2572,107 +3029,27 @@ Underfull \hbox (badness 2065) in paragraph at lines 1229--1229
 [33
 
 ]
-Overfull \hbox (17.59866pt too wide) in paragraph at lines 1275--1275
-[]|[]| 
- []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1275--1275
-[]|\T1/cmr/m/n/12 Equipe in-terna
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1275--1275
-\T1/cmr/m/n/12 (ded-i-cação par-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1275--1275
-[]|\T1/cmr/m/n/12 Suporte téc-nico
- []
-
-
-Overfull \hbox (46.74017pt too wide) in paragraph at lines 1275--1275
-[]|[]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1275--1275
-[]|\T1/cmr/m/n/12 Servidor vir-tual
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1275--1275
-[]|\T1/cmr/m/n/12 API de IA
- []
-
-
-Overfull \hbox (0.6358pt too wide) in paragraph at lines 1275--1275
-\T1/cmr/m/n/12 (Claude/OpenAI)| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1275--1275
-[]|\T1/cmr/bx/n/12 Subtotal In-
- []
-
-
-Overfull \hbox (39.8877pt too wide) in paragraph at lines 1275--1275
-[]|[]| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1275--1275
-[]|\T1/cmr/m/n/12 API What-sApp
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1275--1275
-[]|\T1/cmr/bx/n/12 Subtotal Li-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1275--1275
-[]|\T1/cmr/m/n/12 Treinamento de
- []
-
-
-Underfull \hbox (badness 3439) in paragraph at lines 1275--1275
-[]|\T1/cmr/m/n/12 Documentação e
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1275--1275
-[]|\T1/cmr/m/n/12 Contingência
- []
-
-
-Underfull \hbox (badness 6641) in paragraph at lines 1275--1275
-[]|\T1/cmr/bx/n/12 Subtotal Out-
- []
-
-
-
-[34
-
-]
-
-[35]
-Overfull \hbox (15.08084pt too wide) in paragraph at lines 1301--1301
+[34]
+Overfull \hbox (15.08084pt too wide) in paragraph at lines 1229--1229
 []|\T1/cmr/bx/n/12 Duração| 
  []
 
 
-Overfull \hbox (0.68599pt too wide) in paragraph at lines 1303--1303
+Overfull \hbox (0.68599pt too wide) in paragraph at lines 1231--1231
 []|[]| 
  []
 
 
-Overfull \hbox (10.3794pt too wide) in paragraph at lines 1327--1327
+Overfull \hbox (10.3794pt too wide) in paragraph at lines 1255--1255
 []|[]| 
  []
 
 
+
+[35
+
+]
 
 [36
 
@@ -2682,130 +3059,126 @@ Overfull \hbox (10.3794pt too wide) in paragraph at lines 1327--1327
 
 ]
 
-[38
-
-]
+[38]
 
 [39]
-
-[40]
-Underfull \hbox (badness 1496) in paragraph at lines 1478--1478
+Underfull \hbox (badness 1496) in paragraph at lines 1406--1406
 []|\T1/cmr/m/n/12 Tempo de pro-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1406
 \T1/cmr/m/n/12 ces-sa-mento de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1406
 []|\T1/cmr/m/n/12 Tempo mé-dio
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1406
 []|\T1/cmr/m/n/12 Comparação en-tre
  []
 
 
-Underfull \hbox (badness 2970) in paragraph at lines 1478--1478
+Underfull \hbox (badness 2970) in paragraph at lines 1406--1406
 \T1/cmr/m/n/12 data de aber-tura e
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1406
 []|\T1/cmr/m/n/12 Taxa de con-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1406
 \T1/cmr/m/n/12 formi-dade
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1406
 []|\T1/cmr/m/n/12 Percentual de
  []
 
 
-Underfull \hbox (badness 2426) in paragraph at lines 1478--1478
+Underfull \hbox (badness 2426) in paragraph at lines 1406--1406
 \T1/cmr/m/n/12 doc-u-men-tos em
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1406
 []|\T1/cmr/m/n/12 Satisfação do
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1406
 []|\T1/cmr/m/n/12 Pesquisa pós-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1406
 []|\T1/cmr/m/n/12 Taxa de res-
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 1478--1478
+Underfull \hbox (badness 3471) in paragraph at lines 1406--1406
 \T1/cmr/m/n/12 olução au-tom-a-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1406
 []|\T1/cmr/m/n/12 Percentual de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1406
 \T1/cmr/m/n/12 so-lic-i-tações re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1406
 \T1/cmr/m/n/12 solvi-das sem
  []
 
 
-Underfull \hbox (badness 3471) in paragraph at lines 1478--1478
+Underfull \hbox (badness 3471) in paragraph at lines 1406--1406
 \T1/cmr/m/n/12 in-ter-venção hu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1406
 []|\T1/cmr/m/n/12 Tempo de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1406
 \T1/cmr/m/n/12 re-sposta a
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1478--1478
+Underfull \hbox (badness 10000) in paragraph at lines 1406--1406
 []|\T1/cmr/m/n/12 Tempo mé-dio
  []
 
 
+
+[40
+
+]
 
 [41
 
 ]
 
-[42
-
-]
-
-[43]
-Underfull \hbox (badness 1845) in paragraph at lines 1541--1541
+[42]
+Underfull \hbox (badness 1845) in paragraph at lines 1469--1469
 []|\T1/cmr/m/n/12 Desenvolvedor / In-te-gração de Sis-
  []
 
 
 
-[44
+[43
 
 ] (./main.aux)
  ***********
@@ -2813,21 +3186,47 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: DC822158C043F7C419029D271233D88D;13530.
+(rerunfilecheck)             Checksum: B86EA174602681022C447BBC5CEADD74;13519.
  ) 
 Here is how much of TeX's memory you used:
- 30487 strings out of 473201
- 639620 string characters out of 5689025
- 1074766 words of memory out of 5000000
- 53051 multiletter control sequences out of 15000+600000
+ 30485 strings out of 473201
+ 639477 string characters out of 5689025
+ 1075766 words of memory out of 5000000
+ 53058 multiletter control sequences out of 15000+600000
  578628 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,20n,117p,1240b,1010s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfbx0800.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfbx1095.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfbx1200.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfbx1440.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfbx1728.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfbx2488.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfcc2074.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfrm0800.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfrm1095.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfrm1200.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfrm1440.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfti1200.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfti1728.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sftt1095.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (45 pages, 3400727 bytes).
+ 84i,20n,117p,1156b,1010s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final
+-texmfdist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></nix/store/lavaqw85ixs41s
+v6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/publi
+c/cm-super/sfbx0800.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-co
+mbined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfbx1095.pfb></nix
+/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfd
+ist/fonts/type1/public/cm-super/sfbx1200.pfb></nix/store/lavaqw85ixs41sv6hv8qfz
+ksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-sup
+er/sfbx1440.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-f
+ull-2024-final-texmfdist/fonts/type1/public/cm-super/sfbx1728.pfb></nix/store/l
+avaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/font
+s/type1/public/cm-super/sfbx2488.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r
+3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfcc2
+074.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024
+-final-texmfdist/fonts/type1/public/cm-super/sfrm0800.pfb></nix/store/lavaqw85i
+xs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/
+public/cm-super/sfrm1095.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texli
+ve-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfrm1200.pfb>
+</nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-t
+exmfdist/fonts/type1/public/cm-super/sfrm1440.pfb></nix/store/lavaqw85ixs41sv6h
+v8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/c
+m-super/sfti1200.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combi
+ned-full-2024-final-texmfdist/fonts/type1/public/cm-super/sfti1728.pfb></nix/st
+ore/lavaqw85ixs41sv6hv8qfzksj8n12r3w-texlive-combined-full-2024-final-texmfdist
+/fonts/type1/public/cm-super/sftt1095.pfb></nix/store/lavaqw85ixs41sv6hv8qfzksj
+8n12r3w-texlive-combined-full-2024-final-texmfdist/fonts/type1/public/cm-super/
+sftt1200.pfb>
+Output written on main.pdf (44 pages, 7509924 bytes).
 PDF statistics:
- 669 PDF objects out of 1000 (max. 8388607)
- 580 compressed objects within 6 object streams
- 167 named destinations out of 1000 (max. 500000)
- 455 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 658 PDF objects out of 1000 (max. 8388607)
+ 569 compressed objects within 6 object streams
+ 159 named destinations out of 1000 (max. 500000)
+ 460 words of extra memory for PDF output out of 10000 (max. 10000000)
 

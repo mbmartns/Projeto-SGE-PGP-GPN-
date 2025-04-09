@@ -313,24 +313,6 @@ O especialista em segurança do trabalho, Sr. César, relatou que o sistema SEI 
 
 \subsubsection{Escopo do processo}
 O escopo atual dos processos de segurança do trabalho no IFPE engloba uma série de atividades essenciais para garantir a saúde e segurança dos servidores. Com base no documento "Mapeamento de Processos de Segurança aplicáveis ao IFPE" e nas atas de reunião, foram identificados os seguintes macroprocessos:
-
-\begin{itemize}
-    \item Gestão de Acidentes do Trabalho
-    \item Gestão de Mapeamento e Graduação de Riscos
-    \item Gestão de Equipamentos de Proteção Individual (EPIs)
-    \item Gestão de Treinamento de SST
-    \item Gestão do Plano de Emergência
-    \item Gestão de Energias Perigosas
-    \item Gestão de Auditorias e Inspeções de Segurança
-    \item Gestão de Critérios Mínimos para Contratação de Empresas Terceirizadas
-    \item Gestão de Mudanças
-    \item Gestão de Documentos de SST
-    \item Gestão de Uso de Produtos Químicos
-    \item Gestão de Projetos de Novas Instalações com foco em SST
-    \item Gestão de concessão de adicionais ocupacionais
-    \item Gestão de documentos de aposentadoria especial (PPP)
-\end{itemize}
-
 Cada um desses macroprocessos é composto por diversos subprocessos e atividades, que atualmente são executados de forma fragmentada e com baixo grau de automação.
 
 O processo atual consiste no atendimento manual às solicitações de segurança do trabalho, iniciando quando um servidor público envia uma demanda ao servidor do SIASS por meio de e-mail ou via SEI. O servidor do SIASS verifica manualmente as informações recebidas e, caso identifique dados incompletos, solicita o reenvio das informações faltantes ao servidor solicitante, prolongando o tempo de resposta.
@@ -341,38 +323,6 @@ Na data agendada, a visita técnica é realizada, e, posteriormente, o servidor 
 
 \subsubsection{Processos - As Is (Modelagem dos processos atualmente implementados)}
 
-Este fluxo de trabalho atual pode ser descrito em quatro etapas principais:
-
-\begin{enumerate}
-    \item \textbf{Iniciação do Processo:}
-    \begin{itemize}
-        \item Abertura de processo no sistema SEI
-        \item Documentação inicial frequentemente incompleta
-        \item Ausência de padronização nas solicitações
-    \end{itemize}
-    
-    \item \textbf{Coleta de Informações:}
-    \begin{itemize}
-        \item Processo manual de entrevistas
-        \item Uso de canais informais (telefone pessoal, e-mail)
-        \item Documentação em papel durante visitas
-    \end{itemize}
-    
-    \item \textbf{Análise Técnica:}
-    \begin{itemize}
-        \item Visita presencial ao local
-        \item Avaliação baseada em normas técnicas
-        \item Consulta a especialistas quando necessário
-    \end{itemize}
-    
-    \item \textbf{Documentação:}
-    \begin{itemize}
-        \item Elaboração de relatório em Word
-        \item Inclusão no sistema SEI
-        \item Arquivamento do processo
-    \end{itemize}
-\end{enumerate}
-
 \begin{landscape}
 \begin{figure}[p]
 \centering
@@ -382,37 +332,7 @@ Este fluxo de trabalho atual pode ser descrito em quatro etapas principais:
 \end{landscape}
 
 
-Este processo As-Is apresenta diversas ineficiências e pontos de gargalo, conforme identificado nas reuniões com o cliente:
-
-\begin{enumerate}
-    \item \textbf{Iniciação do Processo:}
-    \begin{itemize}
-        \item Abertura de processo no sistema SEI
-        \item Documentação inicial frequentemente incompleta
-        \item Ausência de padronização nas solicitações
-    \end{itemize}
-    
-    \item \textbf{Coleta de Informações:}
-    \begin{itemize}
-        \item Processo manual de entrevistas
-        \item Uso de canais informais (telefone pessoal, e-mail)
-        \item Documentação em papel durante visitas
-    \end{itemize}
-    
-    \item \textbf{Análise Técnica:}
-    \begin{itemize}
-        \item Visita presencial ao local
-        \item Avaliação baseada em normas técnicas
-        \item Consulta a especialistas quando necessário
-    \end{itemize}
-    
-    \item \textbf{Documentação:}
-    \begin{itemize}
-        \item Elaboração de relatório em Word
-        \item Inclusão no sistema SEI
-        \item Arquivamento do processo
-    \end{itemize}
-\end{enumerate}
+Este processo As-Is apresenta diversas ineficiências e pontos de gargalo, conforme identificado nas reuniões com o cliente.
 
 \subsubsection{Vantagens: O que é bom?}
 Apesar das ineficiências identificadas, o processo atual apresenta algumas vantagens que devem ser preservadas na nova solução:
@@ -467,7 +387,7 @@ A partir da análise realizada, identificou-se que o problema central no process
 \clearpage
 \subsection{Estado Desejado}
 
-O estado desejado para os processos de segurança do trabalho no IFPE é caracterizado por um fluxo de trabalho otimizado, digital e centrado no usuário, conforme ilustrado no diagrama TO-BE apresentado anteriormente. Esta nova abordagem resolve os problemas identificados no processo atual e incorpora as seguintes características principais:
+O estado desejado para os processos de segurança do trabalho no IFPE é caracterizado por um fluxo de trabalho otimizado, digital e centrado no usuário, conforme ilustrado no diagrama TO-BE apresentado a seguir. Esta nova abordagem resolve os problemas identificados no processo atual e incorpora as seguintes características principais:
 
 \begin{itemize}
     \item \textbf{Interface conversacional intuitiva:} Um chatbot com IA que guia os usuários por todo o processo, desde a solicitação inicial até o acompanhamento do status.
@@ -484,6 +404,14 @@ O estado desejado para os processos de segurança do trabalho no IFPE é caracte
 \end{itemize}
 
 Este estado futuro não apenas elimina as ineficiências do processo atual, mas também oferece novas capacidades que elevam a qualidade e o alcance dos serviços de segurança do trabalho no IFPE.
+
+\begin{landscape}
+\begin{figure}[p]
+\centering
+\includegraphics[width=0.85\paperwidth, height=0.8\paperheight, keepaspectratio]{images/TO-BE.jpg}
+\caption{Processo Futuro (To-Be) de Solicitação de Segurança do Trabalho.}
+\end{figure}
+\end{landscape}
 
 \subsection{Análise de Gaps}
 
@@ -770,7 +698,7 @@ Banco de Dados Centralizado \\
 
 \subsubsection{Processos - To Be (Modelagem dos processos melhorados)}
 
-O estado desejado prevê uma transformação significativa nos processos de segurança do trabalho, com a implementação do chatbot com IA como ponto central de interação. A seguir, apresentamos a modelagem do processo genérico no estado desejado:
+O estado desejado prevê uma transformação significativa nos processos de segurança do trabalho, com a implementação do chatbot com IA como ponto central de interação. A seguir, apresentamos a modelagem do processo genérico no estado desejado.
 
 \section{Conclusões e Considerações Finais}
 
